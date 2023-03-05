@@ -606,3 +606,7 @@ tbody tr td :hover {
     color: #edf0f1;
     text-decoration: none;
 }
+
+Atributo style {
+    display: none;
+}
