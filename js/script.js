@@ -1,21 +1,9 @@
-const header = document.querySelector("header");
-const footer = document.querySelector("footer");
 
-header.innerHTML = `
-<a href="https://todopeliculasflv.tk/"><img class="log" src="/images/logo2.png" alt="logo"></a>
-<nav>
-    <ul class="nav_links">
-        <li> <a href="/index.html">Inicio</a></li>
-        <li> <a href="/menu/peliculas.html">Peliculas</a></li>
-        <li> <a href="/menu/series.html">Series</a></li>
-    </ul>
-</nav>
-<a class="cta" href="https://t.me/+-4vHUMv4sN44Yjdh" target="_blank"><button
-        class="bonto-1">Contacto</button></a>
-<form id="form">
-    <input type="search" placeholder="Buscar" id="input-search" class="search">
-</form>
-`;
+// const header = document.querySelector("header");
+const footer = document.querySelector("footer");
+inputSearch = document.getElementById("inputSearch");
+box_search = document.getElementById("box-search");
+
 
 footer.innerHTML = `
 <div class="grupo-1">
@@ -42,3 +30,4 @@ footer.innerHTML = `
 
 </div>
 `;
+
