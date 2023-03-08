@@ -7,12 +7,14 @@ header.innerHTML = `
         <li> <a href="/menu/peliculas.html">Peliculas</a></li>
         <li> <a href="/menu/series.html">Series</a></li>
     </ul>
+    
 </nav>
 <a class="cta" href="https://t.me/+-4vHUMv4sN44Yjdh" target="_blank"><button
         class="bonto-1">Contacto</button></a>
         <form id="form">
         <input type="search" placeholder="Buscar" id="input-search" class="search">        
     </form>
+    <div class="bx bx-menu"id="menu-icon"> <img src="/images/menu-line.png" alt=""></div> 
     <div id="content-footer">
     <div id="lbl-footer" class="content-search">
         <div class="content-table">
@@ -73,3 +75,12 @@ header.innerHTML = `
 
 
 `;
+
+
+let menu = document.querySelector('.bx-menu');
+let navbar = document.querySelector('.nav_links');
+
+menu.onclick = () => {
+    menu.classList.toggle('.bx-menu');
+    navbar.classList.toggle('open');
+}
