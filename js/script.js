@@ -1,5 +1,7 @@
-
-
+// const header = document.querySelector("header");
+const footer = document.querySelector("footer");
+inputSearch = document.getElementById("inputSearch");
+box_search = document.getElementById("box-search");
 footer.innerHTML = `
 <div class="grupo-1">
 <div class="box">
@@ -25,6 +27,8 @@ footer.innerHTML = `
 
 </div>
 `;
+
+
 
 $(document).ready(function(){
 
@@ -63,6 +67,8 @@ $(document).ready(function(){
 		} setTimeout(showAll,400);
 	});
 });
+
+
 
 
 
@@ -110,7 +116,4 @@ elem(allPages, 2);
 
 
 
-// const header = document.querySelector("header");
-const footer = document.querySelector("footer");
-inputSearch = document.getElementById("inputSearch");
-box_search = document.getElementById("box-search");
+
