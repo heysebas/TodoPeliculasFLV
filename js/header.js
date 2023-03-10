@@ -26,6 +26,27 @@ header.innerHTML = `
                 </thead>
                 <tbody>
 
+                <tr>
+                <td>
+                    <a href="/peliculas/Princess-Khutulun.html">
+                       <div>Princess Khutulun</div>
+                   </a>
+                </td>
+            </tr>
+           <tr>
+           <td>
+               <a href="/peliculas/Jack-in-the-Box-2-El-despertar.html">
+                   <div>Jack in the Box 2: El despertar</div>
+               </a>
+           </td>
+       </tr>
+       <tr>
+           <td>
+               <a href="/peliculas/Jack-in-the-Box-2-El-despertar.html">
+                   <div>The Jack in the Box: Awakening</div>
+               </a>
+           </td>
+           </tr>
 
                     <tr>
                         <td>
