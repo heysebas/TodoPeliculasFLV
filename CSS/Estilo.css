@@ -492,7 +492,6 @@ tbody tr td :hover {
 }
 
 .play-3 {
-    width: 100%;
     max-width: 50%;
 }
 
@@ -655,15 +654,18 @@ tbody tr td :hover {
     .bx-menu{
      margin-top: 2%;
     }
+    .play-3 {
+        max-width: 90%;
+    }
 
    
  
-    .nav_links {
+    .nav_links.nav_links.open {
      position: absolute;
-     margin-top: 140px;
+    top: 25%;
      left:  1%;
      width: 210px;
-     height: 50vh;
+     height: 30vh;
      background-color: var(--tertiary-color);
      display: flex;
      flex-direction: column;
@@ -717,7 +719,7 @@ tbody tr td :hover {
 
     .nav_links {
         position: absolute;
-        top: 6.5%;
+        top: 10%;
         right: 100%;
         width: 210px;
         height: 30vh;
