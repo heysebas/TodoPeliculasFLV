@@ -27,8 +27,32 @@ header.innerHTML = `
             <tbody>
 
 
+                         <tr>
+                            <td>
+                                <a href="/peliculas/La-decision-de-partir.html">
+                                    <div>La decisión de partir</div>
+                                </a>
+                            </td>
+                        </tr>
+            
+                    <tr>
+                        <td>
+                            <a href="/peliculas/El-triangulo-de-la-tristeza.html">
+                                <div>El triángulo de la tristeza</div>
+                            </a>
+                        </td>
+                    </tr>
+
 
                     <tr>
+                        <td>
+                            <a href="/peliculas/10-días-de-un-buen-hombre.html">
+                                <div>10 días de un buen hombre</div>
+                            </a>
+                        </td>
+                    </tr>
+
+                 <tr>
                     <td>
                         <a href="/peliculas/Mi-Padre.html">
                             <div>Mi padre</div>
@@ -91,7 +115,7 @@ header.innerHTML = `
                             <div>The Jack in the Box: Awakening</div>
                         </a>
                     </td>
-                               
+                 
                 </tr>
 
                 <tr>
