@@ -27,225 +27,254 @@ header.innerHTML = `
             <tbody>
 
 
-                         <tr>
-                            <td>
-                                <a href="/peliculas/La-decision-de-partir.html">
-                                    <div>La decisión de partir</div>
-                                </a>
-                            </td>
-                        </tr>
-            
-                    <tr>
-                        <td>
-                            <a href="/peliculas/El-triangulo-de-la-tristeza.html">
-                                <div>El triángulo de la tristeza</div>
-                            </a>
-                        </td>
-                    </tr>
-
-
-                    <tr>
-                        <td>
-                            <a href="/peliculas/10-días-de-un-buen-hombre.html">
-                                <div>10 días de un buen hombre</div>
-                            </a>
-                        </td>
-                    </tr>
-
-                 <tr>
-                    <td>
-                        <a href="/peliculas/Mi-Padre.html">
-                            <div>Mi padre</div>
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/peliculas/Tenemos-un-fantasma.html">
-                            <div>Tenemos un fantasma</div>
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/peliculas/Duro-de-entrenar.html">
-                            <div>Duro de entrenar</div>
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/peliculas/Punto-de-fuga.html">
-                            <div>Punto de fuga</div>
-                        </a>
-                    </td>
-                </tr>            
-                <tr>
-                    <td>
-                        <a href="/peliculas/El-abismo.html">
-                            <div>El abismo</div>
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/peliculas/Esta-noche-duermes-conmigo.html">
-                            <div>Esta noche duermes conmigo</div>
-                        </a>
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <a href="/peliculas/Princess-Khutulun.html">
-                            <div>Princess Khutulun</div>
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/peliculas/Jack-in-the-Box-2-El-despertar.html">
-                            <div>Jack in the Box 2: El despertar</div>
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/peliculas/Jack-in-the-Box-2-El-despertar.html">
-                            <div>The Jack in the Box: Awakening</div>
-                        </a>
-                    </td>
-                 
-                </tr>
-
-                <tr>
-                    <td>
-                        <a href="/peliculas/Arde-Notre-Dame.html">
-                            <div>Arde Notre Dame</div>
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/peliculas/Arde-Notre-Dame.html">
-                            <div>Notre-Dame On Fire</div>
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/peliculas/Huesera.html">
-                            <div>Huesera</div>
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/peliculas/Identidad-desbloqueda.html">
-                            <div>Identidad desbloqueada</div>
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/peliculas/El-ultimo-baile-de-Magic-Mike.html">
-                            <div>El último baile de Magic Mike</div>
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/peliculas/El-ultimo-baile-de-Magic-Mike.html">
-                            <div>Magic Mike's Last Dance</div>
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/peliculas/Sharper-Un-plan-perfecto.html">
-                            <div>Sharper: Un plan perfecto</div>
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/peliculas/Un-vecino-grunon.html">
-                            <div>Un vecino gruñón</div>
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/peliculas/Un-vecino-grunon.html">
-                            <div> A Man Called Otto</div>
-                        </a>
-                    </td>
-                </tr>
-
-                <tr>
-
-                    <td>
-                        <a href="/peliculas/Pantera-Negra-Wakanda-por-siempre.html">
-                            <div>Pantera Negra: Wakanda por siempre</div>
-                        </a>
-                    </td>
-
-                </tr>
-                <tr>
-
-                    <td>
-                        <a href="/peliculas/Pantera-Negra-Wakanda-por-siempre.html">
-                            <div>Black Panther: Wakanda Forever</div>
-                        </a>
-                    </td>
-
-                </tr>
-
-                <tr>
-
-                    <td>
-                        <a href="/Series/Peacemaker/Peacemaker.html">
-                            <div>Peacemaker</div>
-                        </a>
-                    </td>
-
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/peliculas/Encanto.html">
-                            <div>Encanto</div>
-                        </a>
-                    </td>
-
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/Series/Hawkeye/Hawkeye.html">
-                            <div>Hawkeye</div>
-                        </a>
-                    </td>
-
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/Series/Falcon-Y-El-Soldado-Del-Invierno/Falcon-Y-El-Soldado-Del-Invierno.html">
-                            <div>Falcon Y El Soldado Del Invierno</div>
-                        </a>
-                    </td>
-
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/Series/Falcon-Y-El-Soldado-Del-Invierno/Falcon-Y-El-Soldado-Del-Invierno.html">
-                            <div>The Falcon and the Winter Soldier</div>
-                        </a>
-                    </td>
-
-                </tr>
-
-
-
-            </tbody>
+            <tr>
+                <td>
+                    <a href="/peliculas/Me-llamo-Chihiro.html">
+                        <div>Me llamo Chihiro</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Los-extranos.html">
+                        <div>Los extraños</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Broadcast-Signal-Intrusion.html">
+                        <div>Broadcast Signal Intrusion</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Como-satisfacer-a-una-mujer.html">
+                        <div>Cómo satisfacer a una mujer</div>
+                    </a>
+                </td>
+            </tr>
+        
+            <tr>
+                <td>
+                    <a href="/peliculas/La-decision-de-partir.html">
+                        <div>La decisión de partir</div>
+                    </a>
+                </td>
+            </tr>
+        
+            <tr>
+                <td>
+                    <a href="/peliculas/El-triangulo-de-la-tristeza.html">
+                        <div>El triángulo de la tristeza</div>
+                    </a>
+                </td>
+            </tr>
+        
+        
+            <tr>
+                <td>
+                    <a href="/peliculas/10-días-de-un-buen-hombre.html">
+                        <div>10 días de un buen hombre</div>
+                    </a>
+                </td>
+            </tr>
+        
+            <tr>
+                <td>
+                    <a href="/peliculas/Mi-Padre.html">
+                        <div>Mi padre</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Tenemos-un-fantasma.html">
+                        <div>Tenemos un fantasma</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Duro-de-entrenar.html">
+                        <div>Duro de entrenar</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Punto-de-fuga.html">
+                        <div>Punto de fuga</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/El-abismo.html">
+                        <div>El abismo</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Esta-noche-duermes-conmigo.html">
+                        <div>Esta noche duermes conmigo</div>
+                    </a>
+                </td>
+            </tr>
+        
+            <tr>
+                <td>
+                    <a href="/peliculas/Princess-Khutulun.html">
+                        <div>Princess Khutulun</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Jack-in-the-Box-2-El-despertar.html">
+                        <div>Jack in the Box 2: El despertar</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Jack-in-the-Box-2-El-despertar.html">
+                        <div>The Jack in the Box: Awakening</div>
+                    </a>
+                </td>
+        
+            </tr>
+        
+            <tr>
+                <td>
+                    <a href="/peliculas/Arde-Notre-Dame.html">
+                        <div>Arde Notre Dame</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Arde-Notre-Dame.html">
+                        <div>Notre-Dame On Fire</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Huesera.html">
+                        <div>Huesera</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Identidad-desbloqueda.html">
+                        <div>Identidad desbloqueada</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/El-ultimo-baile-de-Magic-Mike.html">
+                        <div>El último baile de Magic Mike</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/El-ultimo-baile-de-Magic-Mike.html">
+                        <div>Magic Mike's Last Dance</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Sharper-Un-plan-perfecto.html">
+                        <div>Sharper: Un plan perfecto</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Un-vecino-grunon.html">
+                        <div>Un vecino gruñón</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Un-vecino-grunon.html">
+                        <div> A Man Called Otto</div>
+                    </a>
+                </td>
+            </tr>
+        
+            <tr>
+        
+                <td>
+                    <a href="/peliculas/Pantera-Negra-Wakanda-por-siempre.html">
+                        <div>Pantera Negra: Wakanda por siempre</div>
+                    </a>
+                </td>
+        
+            </tr>
+            <tr>
+        
+                <td>
+                    <a href="/peliculas/Pantera-Negra-Wakanda-por-siempre.html">
+                        <div>Black Panther: Wakanda Forever</div>
+                    </a>
+                </td>
+        
+            </tr>
+        
+            <tr>
+        
+                <td>
+                    <a href="/Series/Peacemaker/Peacemaker.html">
+                        <div>Peacemaker</div>
+                    </a>
+                </td>
+        
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Encanto.html">
+                        <div>Encanto</div>
+                    </a>
+                </td>
+        
+            </tr>
+            <tr>
+                <td>
+                    <a href="/Series/Hawkeye/Hawkeye.html">
+                        <div>Hawkeye</div>
+                    </a>
+                </td>
+        
+            </tr>
+            <tr>
+                <td>
+                    <a href="/Series/Falcon-Y-El-Soldado-Del-Invierno/Falcon-Y-El-Soldado-Del-Invierno.html">
+                        <div>Falcon Y El Soldado Del Invierno</div>
+                    </a>
+                </td>
+        
+            </tr>
+            <tr>
+                <td>
+                    <a href="/Series/Falcon-Y-El-Soldado-Del-Invierno/Falcon-Y-El-Soldado-Del-Invierno.html">
+                        <div>The Falcon and the Winter Soldier</div>
+                    </a>
+                </td>
+        
+            </tr>
+        
+        
+        
+        </tbody>
         </table>
     </div>
 
