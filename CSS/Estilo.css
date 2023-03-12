@@ -38,6 +38,21 @@ header {
     border-end-start-radius: 30px;
 }
 
+.titulo2{
+color: #0088a9;
+}
+
+.titulo-categoria{
+    width: 100%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-categoria h2{
+color: #fff;
+}
+
 .logo {
     cursor: pointer;
     /* margin-right: auto;*/

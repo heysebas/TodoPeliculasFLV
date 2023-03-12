@@ -6,7 +6,7 @@ footer.innerHTML = `
 <div class="grupo-1">
 <div class="box">
     <figure>
-    <a href="index.php"><img class="log" src="/images/logo2.png" alt="logo"></a>
+    <a href="/index.html"><img class="log" src="/images/logo2.png" alt="logo"></a>
     </figure>
 </div>
 <div class="box"><H2>SOBRE NOSOTROS</H2>
