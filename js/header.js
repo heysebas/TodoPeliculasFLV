@@ -26,7 +26,223 @@ header.innerHTML = `
             </thead>
             <tbody>
 
-
+            <tr>
+                <td>
+                    <a href="/categorias/peliculas/Marvel/Marvel_Peliculas.html">
+                        <div>Cronología Marvel</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Spider-Man-Sin-camino-a-casa.html">
+                        <div>Spider Man Sin camino a casa</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Thor-Amor-y-trueno.html">
+                        <div>Thor Amor y trueno</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Doctor-Strange-en-el-multiverso-de-la-locura.html">
+                        <div>Doctor Strange en el multiverso de la locura</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Shang-Chi-y-la-leyenda-de-los-Diez-Anillos.html">
+                        <div>Shang-Chi y la leyenda de los Diez Anillos</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Eternals.html">
+                        <div>Eternals</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Spider-Man-Lejos-de-casa.html">
+                        <div>Spider Man Lejos de casa</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Avengers-Endgam.html">
+                        <div>Avengers Endgam</div>
+                    </a>
+                </td>
+            </tr>    
+            <tr>
+                <td>
+                    <a href="/peliculas/Avengers-Infinity-war.html">
+                        <div>Avengers Infinity war</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Thor-Ragnarok.html">
+                        <div>Thor Ragnarok</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Ant-Man-and-the-Wasp.html">
+                        <div>Ant Man and the Wasp</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Spider-Man-Homecoming.html">
+                        <div>Spider Man Homecoming</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Doctor-Strange-hechicero-supremo.html">
+                        <div>Doctor Strange hechicero supremo</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Pantera-Negra.html">
+                        <div>Pantera Negra</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Viuda-negra.html">
+                        <div>Viuda negra</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Capitan-America-Civil-War.html">
+                        <div>Capitan America Civil War</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Ant-man-el-hombre-hormiga.html">
+                        <div>Ant man el hombre hormiga</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Avengers-Era-de-Ultron.html">
+                        <div>Avengers Era de Ultron</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Guardianes-de-la-galaxia-Vol-2.html">
+                        <div>Guardianes de la galaxia Vol.2</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Guardianes-de-la-galaxia.html">
+                        <div>Guardianes de la galaxia</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Capitan-America-y-el-soldado-del-invierno.html">
+                        <div>Capitan America y el soldado del invierno</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Thor-El-mundo-oscuro.html">
+                        <div>Thor El mundo oscuro</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Iron-man-3.html">
+                        <div>Iron man 3</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/The-Avengers-Los-Vengadores.html">
+                        <div>Los Vengadores</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/The-Avengers-Los-Vengadores.html">
+                        <div>The Avengers</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Thor.html">
+                        <div>Thor.</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Iron-man-2.html">
+                        <div>Iron man 2</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Hulk-el-hombre-increible.html">
+                        <div>Hulk el hombre increible</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Iron-man-El-hombre-de-hierro.html">
+                        <div>Iron man El hombre de hierro</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Capitana-Marvel.html">
+                        <div>Capitana Marvel</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Capitan-America-El-primer-vengador.html">
+                        <div>Capitán América: El primer vengador</div>
+                    </a>
+                </td>
+            </tr>
             <tr>
                 <td>
                     <a href="/peliculas/Me-llamo-Chihiro.html">
@@ -285,13 +501,13 @@ header.innerHTML = `
 `;
 
 
-// let menu = document.querySelector('.bx-menu');
-// let navbar = document.querySelector('.nav_links');
+let menu = document.querySelector('.bx-menu');
+let navbar = document.querySelector('.nav_links');
 
-// menu.onclick = () => {
-// menu.classList.toggle('.bx-menu');
-// navbar.classList.toggle('open');
-// }
+menu.onclick = () => {
+    menu.classList.toggle('.bx-menu');
+    navbar.classList.toggle('open');
+}
 
 // $(document).ready(function(){
 

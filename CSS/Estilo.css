@@ -527,6 +527,10 @@ tbody tr td :hover {
     float: left;
     margin-left: 8px;
     margin-right: 30px;
+    margin-block-end: 1%;
+    border-radius: 10px;
+    box-shadow: 0 0 30px;
+    
 }
 
 .conteiner-all p {
@@ -539,6 +543,7 @@ tbody tr td :hover {
 .conteiner-all h1 {
     color: #edf0f1;
     margin: 8px;
+    
 }
 
 .conteiner-all li {
