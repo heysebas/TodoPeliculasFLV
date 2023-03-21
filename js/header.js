@@ -27,6 +27,56 @@ header.innerHTML = `
             <tbody>
 
             <tr>
+            <td>
+                <a href="/peliculas/Shrek-para-siempre.html">
+                    <div>Shrek para siempre</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/peliculas/Shrek-2.html">
+                    <div>Shrek 2</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/peliculas/Shrek.html">
+                    <div>Shrek</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/peliculas/Shrek-tercero.html">
+                    <div>Shrek tercero</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/peliculas/Yo-Antes-De-Ti.html">
+                    <div>Yo Antes De Ti</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/peliculas/Tu-casa-o-la-mía.html">
+                    <div>Tu casa o la mía</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/peliculas/A-quien-solía-conocer.html">
+                    <div>A quien solía conocer</div>
+                </a>
+            </td>
+        </tr>
+
+            <tr>
                 <td>
                     <a href="/categorias/peliculas/Marvel/Marvel_Peliculas.html">
                         <div>Cronología Marvel</div>
