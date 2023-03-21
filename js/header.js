@@ -26,6 +26,14 @@ header.innerHTML = `
             </thead>
             <tbody>
 
+            
+            <tr>
+            <td>
+                <a href="/peliculas/Gato-con-botas-El-último-deseo.html">
+                    <div>Gato con botas: El último deseo</div>
+                </a>
+            </td>
+        </tr>
             <tr>
             <td>
                 <a href="/peliculas/Shrek-para-siempre.html">
