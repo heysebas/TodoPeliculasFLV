@@ -27,6 +27,28 @@ header.innerHTML = `
             <tbody>
 
             
+            
+                <tr>
+                <td>
+                    <a href="/peliculas/Hoy-se-arregla-el-mundo.html">
+                        <div>Hoy se arregla el mundo</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+            <td>
+                <a href="/peliculas/Deadpool-2.html">
+                    <div>Deadpool 2</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/peliculas/Deadpool.html">
+                    <div>Deadpool</div>
+                </a>
+            </td>
+        </tr>
             <tr>
             <td>
                 <a href="/peliculas/Gato-con-botas-El-último-deseo.html">
