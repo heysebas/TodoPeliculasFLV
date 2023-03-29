@@ -26,7 +26,76 @@ header.innerHTML = `
             </thead>
             <tbody>
 
-            
+            <tr>
+            <td>
+                <a href="/peliculas/Interestelar.html">
+                    <div>Interestelar</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/peliculas/Paul.html">
+                    <div>Paul</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/peliculas/Lilo_Lilo_cocodrilo.html">
+                    <div>Lilo Lilo cocodrilo</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/peliculas/La-noche-del-demonio-Capítulo-3.html">
+                    <div>La noche del demonio Capítulo 3</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/peliculas/La-noche-del-demonio-Capítulo-2.html">
+                    <div>La noche del demonio Capítulo 2</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/peliculas/La-noche-del-demonio.html">
+                    <div>La-noche del demonio</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/peliculas/Corazones-malheridos.html">
+                    <div>Corazones malheridos</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/peliculas/La-cabaña.html">
+                    <div>La cabaña</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/peliculas/Hasta-los-huesos.html">
+                    <div>Hasta los huesos</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/peliculas/El-túnel.html">
+                    <div>El túnel</div>
+                </a>
+            </td>
+        </tr>
             
                 <tr>
                 <td>
