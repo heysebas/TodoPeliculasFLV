@@ -28,6 +28,27 @@ header.innerHTML = `
 
             <tr>
             <td>
+                <a href="/peliculas/Creed-III.html">
+                    <div>Creed III</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/peliculas/Creed-II-Defendiendo-el-legado.html">
+                    <div>Creed II: Defendiendo el legado</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/peliculas/Creed.html">
+                    <div>Creed</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
                 <a href="/peliculas/John-Wick-Capítulo-3-Parabellum.html">
                     <div>John Wick: Capítulo 3 - Parabellum</div>
                 </a>
