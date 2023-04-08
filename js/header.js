@@ -26,6 +26,50 @@ header.innerHTML = `
             </thead>
             <tbody>
 
+
+
+            <tr>
+                <td>
+                    <a href="/peliculas/Soy-inocente.html">
+                        <div>Soy inocente</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Pacto-de-graduación.html">
+                        <div>Pacto de graduación</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Mi-maestra-se-comió-a-mi-amigo.html">
+                        <div>Mi maestra se comió a mi amigo</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Un-amor-inesperado.html">
+                        <div>Un amor inesperado</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Boksoon-debe-morir.html">
+                        <div>Boksoon debe morir</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+            <td>
+                <a href="/Series/Agencia-Lockwood/Agencia-Lockwood.html">
+                    <div>Agencia Lockwood</div>
+                </a>
+            </td>
+            </tr>
             <tr>
                 <td>
                     <a href="/peliculas/Tetris.html">

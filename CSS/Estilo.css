@@ -579,10 +579,17 @@ tbody tr td :hover {
     background: var(--secondary-color);
     border-radius: 10px;
     justify-content: left;
-    margin-top: 0px;
+    margin-top: 6px;
     display: block;
     flex-wrap: wrap;
+    box-shadow: 0px 1px 44px rgba(0, 0, 0, 0.16);
 }
+
+.conteiner-all-3 img {
+    margin-top: 1%;
+}
+
+
 
 .conteiner-all-3 p {
     justify-content: center;
@@ -594,7 +601,7 @@ tbody tr td :hover {
 .conteiner-all-3 a {
     justify-content: center;
     color: #edf0f1;
-    margin: 8px;
+    margin-left: 8px;
     text-align: justify;
 }
 
