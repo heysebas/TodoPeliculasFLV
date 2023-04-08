@@ -26,8 +26,48 @@ header.innerHTML = `
             </thead>
             <tbody>
 
-
-
+                <tr>
+                <td>
+                    <a href="/peliculas/La-reencarnación-del-demonio.html">
+                        <div>La reencarnación del demonio</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Géminis-El-planeta-oscuro.html">
+                        <div>Géminis El planeta oscuro</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Tiburón-a-la-vista.html">
+                        <div>¡Tiburón a la vista!</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Little-Dixie.html">
+                        <div>Little Dixie</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Re_Member.html">
+                        <div>Re/Member</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/peliculas/Mientras-haya-esperanza.html">
+                        <div>Mientras hay aesperanza</div>
+                    </a>
+                </td>
+            </tr>
             <tr>
                 <td>
                     <a href="/peliculas/Soy-inocente.html">
