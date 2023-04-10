@@ -38,19 +38,19 @@ header {
     border-end-start-radius: 30px;
 }
 
-.titulo2{
-color: #0088a9;
+.titulo2 {
+    color: #0088a9;
 }
 
-.titulo-categoria{
+.titulo-categoria {
     width: 100%;
     margin-top: 1%;
     display: flex;
     justify-content: center;
 }
 
-.titulo-categoria h2{
-color: #fff;
+.titulo-categoria h2 {
+    color: #fff;
 }
 
 .logo {
@@ -137,6 +137,155 @@ main {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+/********************pagination******************/
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pagination {
+    text-align: center;
+    margin: 30px 30px 60px;
+    user-select: none;
+}
+
+.pagination li {
+    display: inline-block;
+    margin: 5px;
+    box-shadow: 0 5px 25px rgba(1 1 1 /10%);
+}
+
+.pagination li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    line-height: 45px;
+}
+
+.previous-page,
+.netx-page {
+    background: #0088a9;
+    width: 80px;
+    border-radius: 45px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.previous-page:hover {
+    transform: translateX(-5px);
+}
+
+.netx-page:hover {
+    transform: translateX(5px);
+}
+
+.current-page,
+.dots {
+    background: #ccc;
+    width: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.active {
+    background: #0088a9;
+}
+
+.disable {
+    background: #ccc;
+}
+
+.simple-pagination ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.simple-pagination li {
+    display: inline-block;
+    margin: 2px;
+}
+
+.simple-pagination li a,
+.simple-pagination li span {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #fff;
+    text-align: center;
+    
+    text-decoration: none;
+    color: #0088a9;
+    border-radius: 4px;
+    margin: 5px;
+    box-shadow: inset 0 5px 10px rgba(0, 0, 0, .1), 0 2px 5px rgba(0, 0, 0, .5);
+    transition:  all 1s ease;
+}
+
+.simple-pagination li a:hover{
+    background: #0088a9;
+    color: #fff;
+}
+
+.simple-pagination .current{
+    color: #fff;
+    background-color: #0088a9;
+    border-color: rgb(255, 255, 255);
+    border: 1px solid;  
+}
+
+.simple-pagination .prev.current,
+.simple-pagination .next.ccurrent{
+    background: #0088a9;
+    border: none;
+}
+
+/* .bottom-field{
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+}
+.pagination{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagination li{
+  list-style: none;
+  padding: 2px;
+  margin: 10px;
+  flex-shrink: 0;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #999;
+  color: #999;
+}
+.pagination li.active{
+  background: #0088a9;
+  color: white;
+  border-color: #0088a9;
+
+}
+.pagination li a{
+  text-decoration: none;
+  padding: 3px 8px;
+  color: inherit;
+  display: block;
+  font-family: sans-serif;
+  font-size: 13px;
+} */
+/**********************************************/
 
 .navegador {
     width: 100%;
@@ -227,6 +376,63 @@ main {
 
 .category_item {
     margin-right: 10px;
+}
+
+.error-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 100px);
+    width: 100%;
+}
+
+.error-message_container {
+    text-align: center;
+    color: white;
+}
+
+.error-message_container h1 {
+    font-size: 60px;
+}
+
+.error-message_container p {
+    font-size: 18px;
+}
+
+.error-message_container a {
+    font-size: 18px;
+    color: #0088a9;
+}
+
+.animated {
+    animation-duration: 2.5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-30px);
+    }
+
+    60% {
+        transform: translateY(-15px);
+    }
+
+}
+
+.bounce {
+    animation-name: bounce;
 }
 
 
@@ -416,7 +622,7 @@ main {
     overflow-y: visible;
     overflow-x: hidden;
     z-index: 3;
-   
+
 }
 
 .content-table::-webkit-scrollbar {
@@ -530,7 +736,7 @@ tbody tr td :hover {
     margin-block-end: 1%;
     border-radius: 10px;
     box-shadow: 0 0 30px;
-    
+
 }
 
 .conteiner-all p {
@@ -543,7 +749,7 @@ tbody tr td :hover {
 .conteiner-all h1 {
     color: #edf0f1;
     margin: 8px;
-    
+
 }
 
 .conteiner-all li {
@@ -663,27 +869,33 @@ tbody tr td :hover {
     text-align: center;
     color: #fff;
 }
+
 @media screen and (max-width:1500px) {
     .pie-pagina {
-    height: 100%;
+        height: 100%;
     }
 }
 
 @media screen and (max-width:800px) {
     header {
-     display: block;
-         margin: 12px 0;
-         padding: 0px 25px;
-         right: 092%;
-    }.search{
-     margin-top: 2%;
+        display: block;
+        margin: 12px 0;
+        padding: 0px 25px;
+        right: 092%;
     }
-    .bx-menu{
-     margin-top: 2%;
+
+    .search {
+        margin-top: 2%;
     }
+
+    .bx-menu {
+        margin-top: 2%;
+    }
+
     .play-3 {
         max-width: 90%;
     }
+
     .content-search {
         width: 300px;
         height: 100vh;
@@ -696,28 +908,28 @@ tbody tr td :hover {
         border-radius: 20px;
     }
 
-   
- 
+
+
     .nav_links.nav_links.open {
-     position: absolute;
-    top: 25%;
-     left:  1%;
-     width: 210px;
-     height: 30vh;
-     background-color: var(--tertiary-color);
-     display: flex;
-     flex-direction: column;
-     justify-content: flex-start;
-     border-radius: 10px;
-     transition: all .50 ease;
-     z-index: 2;
- 
- }
+        position: absolute;
+        top: 25%;
+        left: 1%;
+        width: 210px;
+        height: 30vh;
+        background-color: var(--tertiary-color);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        border-radius: 10px;
+        transition: all .50 ease;
+        z-index: 2;
+
+    }
 
 
 
 
-  
+
     .pie-pagina .grupo-1 {
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
@@ -734,7 +946,7 @@ tbody tr td :hover {
     }
 }
 
-@media  (max-width:1280px) {
+@media (max-width:1280px) {
     header {
         padding: 14px 2%;
         transition: .2s;
@@ -784,10 +996,12 @@ tbody tr td :hover {
         color: #fff;
         transform: translateY(5px);
     }
+
     .nav_links a:active {
         color: #fff;
     }
-    .nav_links.open{
+
+    .nav_links.open {
         right: 2%;
     }
 
