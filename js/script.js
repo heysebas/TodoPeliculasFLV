@@ -150,21 +150,21 @@ function getPageList(totalPages, page, maxLength) {
 // });
 
 
-var items = $('.card-content .movie');
-var  numItems = items.length;
-var perPage = 30; //cantida de cards mostrados
+// var items = $('.card-content .movie');
+// var  numItems = items.length;
+// var perPage = 30; //cantida de cards mostrados
 
-items.slice(perPage).hide();
+// items.slice(perPage).hide();
 
-$('#pagination-container').pagination({
-    items: numItems,
-    itemsOnPage : perPage,
-    prevText: "Prev",
-    netxText: "Next",
-    onPageClick: function (pageNumber) {
-        var showFrom = perPage * (pageNumber - 1);
-        var showTo = showFrom + perPage;
-        items.hide(),slice(showFrom, showTo).show();
+// $('#pagination-container').pagination({
+//     items: numItems,
+//     itemsOnPage : perPage,
+//     prevText: "Prev",
+//     netxText: "Next",
+//     onPageClick: function (pageNumber) {
+//         var showFrom = perPage * (pageNumber - 1);
+//         var showTo = showFrom + perPage;
+//         items.hide(),slice(showFrom, showTo).show();
     
-    }
-});
+//     }
+// });

@@ -26,6 +26,86 @@ header.innerHTML = `
             </thead>
             <tbody>
 
+
+            <tr>
+            <td>
+                <a href="/peliculas/2/Buscando-a-Dory.html">
+                    <div>Buscando a Dory</div>
+                </a>
+            </td>
+        </tr>
+
+                <tr>
+                    <td>
+                      <a href="/peliculas/2/65-Al-borde-de-la-extinción.html">
+                            <div>65: Al borde de la extinción</div>
+                        </a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Buscando-a-Nemo.html">
+                            <div>Buscando a Nemo</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Shazam-La-furia-de-los-dioses.html">
+                            <div>Shazam La furia de los dioses</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Shazam.html">
+                            <div>Shazam</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/1/Chupa.html">
+                            <div>Chupa</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/1/La-ballena.html">
+                            <div>La ballena</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/1/Depredador-La-presa.html">
+                            <div>Depredador La presa</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/1/Escape-Room-2-Reto-mortal.html">
+                            <div>Escape Room 2: Reto mortal</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/1/Escape-Room.html">
+                            <div>Escape Room</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/1/Misterio-a-la-vista-2.html">
+                            <div>Misterio a la vista 2</div>
+                        </a>
+                    </td>
+                </tr>
                 <tr>
                 <td>
                     <a href="/peliculas/La-reencarnación-del-demonio.html">
