@@ -28,366 +28,393 @@ header.innerHTML = `
 
 
             <tr>
+                    <td>
+                        <a href="/peliculas/2/El-vuelo-de-los-ladrones.html">
+                            <div>El vuelo de los ladrones</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Adicción-perfecta.html">
+                            <div>Adicción perfecta</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Los-campeones.html">
+                            <div>Los campeones</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/The-Commando.html">
+                            <div>The Commando</div>
+                        </a>
+                    </td>
+                </tr>
+            <tr>
             <td>
                 <a href="/peliculas/2/Buscando-a-Dory.html">
                     <div>Buscando a Dory</div>
                 </a>
             </td>
         </tr>
-
-                <tr>
-                    <td>
-                      <a href="/peliculas/2/65-Al-borde-de-la-extinción.html">
-                            <div>65: Al borde de la extinción</div>
-                        </a>
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <a href="/peliculas/2/Buscando-a-Nemo.html">
-                            <div>Buscando a Nemo</div>
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/peliculas/2/Shazam-La-furia-de-los-dioses.html">
-                            <div>Shazam La furia de los dioses</div>
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/peliculas/2/Shazam.html">
-                            <div>Shazam</div>
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/peliculas/1/Chupa.html">
-                            <div>Chupa</div>
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/peliculas/1/La-ballena.html">
-                            <div>La ballena</div>
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/peliculas/1/Depredador-La-presa.html">
-                            <div>Depredador La presa</div>
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/peliculas/1/Escape-Room-2-Reto-mortal.html">
-                            <div>Escape Room 2: Reto mortal</div>
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/peliculas/1/Escape-Room.html">
-                            <div>Escape Room</div>
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/peliculas/1/Misterio-a-la-vista-2.html">
-                            <div>Misterio a la vista 2</div>
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                <td>
-                    <a href="/peliculas/La-reencarnación-del-demonio.html">
-                        <div>La reencarnación del demonio</div>
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="/peliculas/Géminis-El-planeta-oscuro.html">
-                        <div>Géminis El planeta oscuro</div>
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="/peliculas/Tiburón-a-la-vista.html">
-                        <div>¡Tiburón a la vista!</div>
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="/peliculas/Little-Dixie.html">
-                        <div>Little Dixie</div>
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="/peliculas/Re_Member.html">
-                        <div>Re/Member</div>
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="/peliculas/Mientras-haya-esperanza.html">
-                        <div>Mientras hay aesperanza</div>
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="/peliculas/Soy-inocente.html">
-                        <div>Soy inocente</div>
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="/peliculas/Pacto-de-graduación.html">
-                        <div>Pacto de graduación</div>
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="/peliculas/Mi-maestra-se-comió-a-mi-amigo.html">
-                        <div>Mi maestra se comió a mi amigo</div>
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="/peliculas/Un-amor-inesperado.html">
-                        <div>Un amor inesperado</div>
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="/peliculas/Boksoon-debe-morir.html">
-                        <div>Boksoon debe morir</div>
-                    </a>
-                </td>
-            </tr>
-            <tr>
+        <tr>
+            <td>
+                <a href="/peliculas/2/65-Al-borde-de-la-extinción.html">
+                    <div>65: Al borde de la extinción</div>
+                </a>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <a href="/peliculas/2/Buscando-a-Nemo.html">
+                    <div>Buscando a Nemo</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/peliculas/2/Shazam-La-furia-de-los-dioses.html">
+                    <div>Shazam La furia de los dioses</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/peliculas/2/Shazam.html">
+                    <div>Shazam</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/peliculas/1/Chupa.html">
+                    <div>Chupa</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/peliculas/1/La-ballena.html">
+                    <div>La ballena</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/peliculas/1/Depredador-La-presa.html">
+                    <div>Depredador La presa</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/peliculas/1/Escape-Room-2-Reto-mortal.html">
+                    <div>Escape Room 2: Reto mortal</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/peliculas/1/Escape-Room.html">
+                    <div>Escape Room</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/peliculas/1/Misterio-a-la-vista-2.html">
+                    <div>Misterio a la vista 2</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/peliculas/1/La-reencarnación-del-demonio.html">
+                    <div>La reencarnación del demonio</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/peliculas/1/Géminis-El-planeta-oscuro.html">
+                    <div>Géminis El planeta oscuro</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/peliculas/1/Tiburón-a-la-vista.html">
+                    <div>¡Tiburón a la vista!</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/peliculas/1/Little-Dixie.html">
+                    <div>Little Dixie</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/peliculas/1/Re_Member.html">
+                    <div>Re/Member</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/peliculas/1/Mientras-haya-esperanza.html">
+                    <div>Mientras hay aesperanza</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/peliculas/1/Soy-inocente.html">
+                    <div>Soy inocente</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/peliculas/1/Pacto-de-graduación.html">
+                    <div>Pacto de graduación</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/peliculas/1/Mi-maestra-se-comió-a-mi-amigo.html">
+                    <div>Mi maestra se comió a mi amigo</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/peliculas/1/Un-amor-inesperado.html">
+                    <div>Un amor inesperado</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/peliculas/1/Boksoon-debe-morir.html">
+                    <div>Boksoon debe morir</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
             <td>
                 <a href="/Series/Agencia-Lockwood/Agencia-Lockwood.html">
                     <div>Agencia Lockwood</div>
                 </a>
             </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="/peliculas/Tetris.html">
-                        <div>Tetris</div>
-                    </a>
-                </td>
-            </tr>
-            <tr>
+        </tr>
+        <tr>
             <td>
-                <a href="/peliculas/Creed-III.html">
+                <a href="/peliculas/1/Tetris.html">
+                    <div>Tetris</div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/peliculas/1/Creed-III.html">
                     <div>Creed III</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Creed-II-Defendiendo-el-legado.html">
+                <a href="/peliculas/1/Creed-II-Defendiendo-el-legado.html">
                     <div>Creed II: Defendiendo el legado</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Creed.html">
+                <a href="/peliculas/1/Creed.html">
                     <div>Creed</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/John-Wick-Capítulo-3-Parabellum.html">
+                <a href="/peliculas/1/John-Wick-Capítulo-3-Parabellum.html">
                     <div>John Wick: Capítulo 3 - Parabellum</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/John-Wick-Pacto-de-sangre.html">
+                <a href="/peliculas/1/John-Wick-Pacto-de-sangre.html">
                     <div>John Wick: Pacto de sangre</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/John-Wick.html">
+                <a href="/peliculas/1/John-Wick.html">
                     <div>John Wick</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Interestelar.html">
+                <a href="/peliculas/1/Interestelar.html">
                     <div>Interestelar</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Paul.html">
+                <a href="/peliculas/1/Paul.html">
                     <div>Paul</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Lilo_Lilo_cocodrilo.html">
+                <a href="/peliculas/1/Lilo_Lilo_cocodrilo.html">
                     <div>Lilo Lilo cocodrilo</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/La-noche-del-demonio-Capítulo-3.html">
+                <a href="/peliculas/1/La-noche-del-demonio-Capítulo-3.html">
                     <div>La noche del demonio Capítulo 3</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/La-noche-del-demonio-Capítulo-2.html">
+                <a href="/peliculas/1/La-noche-del-demonio-Capítulo-2.html">
                     <div>La noche del demonio Capítulo 2</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/La-noche-del-demonio.html">
+                <a href="/peliculas/1/La-noche-del-demonio.html">
                     <div>La-noche del demonio</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Corazones-malheridos.html">
+                <a href="/peliculas/1/Corazones-malheridos.html">
                     <div>Corazones malheridos</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/La-cabaña.html">
+                <a href="/peliculas/1/La-cabaña.html">
                     <div>La cabaña</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Hasta-los-huesos.html">
+                <a href="/peliculas/1/Hasta-los-huesos.html">
                     <div>Hasta los huesos</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/El-túnel.html">
+                <a href="/peliculas/1/El-túnel.html">
                     <div>El túnel</div>
                 </a>
             </td>
         </tr>
-
+        
         <tr>
             <td>
-                <a href="/peliculas/Hoy-se-arregla-el-mundo.html">
+                <a href="/peliculas/1/Hoy-se-arregla-el-mundo.html">
                     <div>Hoy se arregla el mundo</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Deadpool-2.html">
+                <a href="/peliculas/1/Deadpool-2.html">
                     <div>Deadpool 2</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Deadpool.html">
+                <a href="/peliculas/1/Deadpool.html">
                     <div>Deadpool</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Gato-con-botas-El-último-deseo.html">
+                <a href="/peliculas/1/Gato-con-botas-El-último-deseo.html">
                     <div>Gato con botas: El último deseo</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Shrek-para-siempre.html">
+                <a href="/peliculas/1/Shrek-para-siempre.html">
                     <div>Shrek para siempre</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Shrek-2.html">
+                <a href="/peliculas/1/Shrek-2.html">
                     <div>Shrek 2</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Shrek.html">
+                <a href="/peliculas/1/Shrek.html">
                     <div>Shrek</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Shrek-tercero.html">
+                <a href="/peliculas/1/Shrek-tercero.html">
                     <div>Shrek tercero</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Yo-Antes-De-Ti.html">
+                <a href="/peliculas/1/Yo-Antes-De-Ti.html">
                     <div>Yo Antes De Ti</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Tu-casa-o-la-mía.html">
+                <a href="/peliculas/1/Tu-casa-o-la-mía.html">
                     <div>Tu casa o la mía</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/A-quien-solía-conocer.html">
+                <a href="/peliculas/1/A-quien-solía-conocer.html">
                     <div>A quien solía conocer</div>
                 </a>
             </td>
         </tr>
-
+        
         <tr>
             <td>
                 <a href="/categorias/peliculas/Marvel/Marvel_Peliculas.html">
@@ -397,433 +424,433 @@ header.innerHTML = `
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Spider-Man-Sin-camino-a-casa.html">
+                <a href="/peliculas/1/Spider-Man-Sin-camino-a-casa.html">
                     <div>Spider Man Sin camino a casa</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Thor-Amor-y-trueno.html">
+                <a href="/peliculas/1/Thor-Amor-y-trueno.html">
                     <div>Thor Amor y trueno</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Doctor-Strange-en-el-multiverso-de-la-locura.html">
+                <a href="/peliculas/1/Doctor-Strange-en-el-multiverso-de-la-locura.html">
                     <div>Doctor Strange en el multiverso de la locura</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Shang-Chi-y-la-leyenda-de-los-Diez-Anillos.html">
+                <a href="/peliculas/1/Shang-Chi-y-la-leyenda-de-los-Diez-Anillos.html">
                     <div>Shang-Chi y la leyenda de los Diez Anillos</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Eternals.html">
+                <a href="/peliculas/1/Eternals.html">
                     <div>Eternals</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Spider-Man-Lejos-de-casa.html">
+                <a href="/peliculas/1/Spider-Man-Lejos-de-casa.html">
                     <div>Spider Man Lejos de casa</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Avengers-Endgam.html">
+                <a href="/peliculas/1/Avengers-Endgam.html">
                     <div>Avengers Endgam</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Avengers-Infinity-war.html">
+                <a href="/peliculas/1/Avengers-Infinity-war.html">
                     <div>Avengers Infinity war</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Thor-Ragnarok.html">
+                <a href="/peliculas/1/Thor-Ragnarok.html">
                     <div>Thor Ragnarok</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Ant-Man-and-the-Wasp.html">
+                <a href="/peliculas/1/Ant-Man-and-the-Wasp.html">
                     <div>Ant Man and the Wasp</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Spider-Man-Homecoming.html">
+                <a href="/peliculas/1/Spider-Man-Homecoming.html">
                     <div>Spider Man Homecoming</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Doctor-Strange-hechicero-supremo.html">
+                <a href="/peliculas/1/Doctor-Strange-hechicero-supremo.html">
                     <div>Doctor Strange hechicero supremo</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Pantera-Negra.html">
+                <a href="/peliculas/1/Pantera-Negra.html">
                     <div>Pantera Negra</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Viuda-negra.html">
+                <a href="/peliculas/1/Viuda-negra.html">
                     <div>Viuda negra</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Capitan-America-Civil-War.html">
+                <a href="/peliculas/1/Capitan-America-Civil-War.html">
                     <div>Capitan America Civil War</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Ant-man-el-hombre-hormiga.html">
+                <a href="/peliculas/1/Ant-man-el-hombre-hormiga.html">
                     <div>Ant man el hombre hormiga</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Avengers-Era-de-Ultron.html">
+                <a href="/peliculas/1/Avengers-Era-de-Ultron.html">
                     <div>Avengers Era de Ultron</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Guardianes-de-la-galaxia-Vol-2.html">
+                <a href="/peliculas/1/Guardianes-de-la-galaxia-Vol-2.html">
                     <div>Guardianes de la galaxia Vol.2</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Guardianes-de-la-galaxia.html">
+                <a href="/peliculas/1/Guardianes-de-la-galaxia.html">
                     <div>Guardianes de la galaxia</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Capitan-America-y-el-soldado-del-invierno.html">
+                <a href="/peliculas/1/Capitan-America-y-el-soldado-del-invierno.html">
                     <div>Capitan America y el soldado del invierno</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Thor-El-mundo-oscuro.html">
+                <a href="/peliculas/1/Thor-El-mundo-oscuro.html">
                     <div>Thor El mundo oscuro</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Iron-man-3.html">
+                <a href="/peliculas/1/Iron-man-3.html">
                     <div>Iron man 3</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/The-Avengers-Los-Vengadores.html">
+                <a href="/peliculas/1/The-Avengers-Los-Vengadores.html">
                     <div>Los Vengadores</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/The-Avengers-Los-Vengadores.html">
+                <a href="/peliculas/1/The-Avengers-Los-Vengadores.html">
                     <div>The Avengers</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Thor.html">
+                <a href="/peliculas/1/Thor.html">
                     <div>Thor.</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Iron-man-2.html">
+                <a href="/peliculas/1/Iron-man-2.html">
                     <div>Iron man 2</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Hulk-el-hombre-increible.html">
+                <a href="/peliculas/1/Hulk-el-hombre-increible.html">
                     <div>Hulk el hombre increible</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Iron-man-El-hombre-de-hierro.html">
+                <a href="/peliculas/1/Iron-man-El-hombre-de-hierro.html">
                     <div>Iron man El hombre de hierro</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Capitana-Marvel.html">
+                <a href="/peliculas/1/Capitana-Marvel.html">
                     <div>Capitana Marvel</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Capitan-America-El-primer-vengador.html">
+                <a href="/peliculas/1/Capitan-America-El-primer-vengador.html">
                     <div>Capitán América: El primer vengador</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Me-llamo-Chihiro.html">
+                <a href="/peliculas/1/Me-llamo-Chihiro.html">
                     <div>Me llamo Chihiro</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Los-extranos.html">
+                <a href="/peliculas/1/Los-extranos.html">
                     <div>Los extraños</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Broadcast-Signal-Intrusion.html">
+                <a href="/peliculas/1/Broadcast-Signal-Intrusion.html">
                     <div>Broadcast Signal Intrusion</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Como-satisfacer-a-una-mujer.html">
+                <a href="/peliculas/1/Como-satisfacer-a-una-mujer.html">
                     <div>Cómo satisfacer a una mujer</div>
                 </a>
             </td>
         </tr>
-
+        
         <tr>
             <td>
-                <a href="/peliculas/La-decision-de-partir.html">
+                <a href="/peliculas/1/La-decision-de-partir.html">
                     <div>La decisión de partir</div>
                 </a>
             </td>
         </tr>
-
+        
         <tr>
             <td>
-                <a href="/peliculas/El-triangulo-de-la-tristeza.html">
+                <a href="/peliculas/1/El-triangulo-de-la-tristeza.html">
                     <div>El triángulo de la tristeza</div>
                 </a>
             </td>
         </tr>
-
-
+        
+        
         <tr>
             <td>
-                <a href="/peliculas/10-días-de-un-buen-hombre.html">
+                <a href="/peliculas/1/10-días-de-un-buen-hombre.html">
                     <div>10 días de un buen hombre</div>
                 </a>
             </td>
         </tr>
-
+        
         <tr>
             <td>
-                <a href="/peliculas/Mi-Padre.html">
+                <a href="/peliculas/1/Mi-Padre.html">
                     <div>Mi padre</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Tenemos-un-fantasma.html">
+                <a href="/peliculas/1/Tenemos-un-fantasma.html">
                     <div>Tenemos un fantasma</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Duro-de-entrenar.html">
+                <a href="/peliculas/1/Duro-de-entrenar.html">
                     <div>Duro de entrenar</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Punto-de-fuga.html">
+                <a href="/peliculas/1/Punto-de-fuga.html">
                     <div>Punto de fuga</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/El-abismo.html">
+                <a href="/peliculas/1/El-abismo.html">
                     <div>El abismo</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Esta-noche-duermes-conmigo.html">
+                <a href="/peliculas/1/Esta-noche-duermes-conmigo.html">
                     <div>Esta noche duermes conmigo</div>
                 </a>
             </td>
         </tr>
-
+        
         <tr>
             <td>
-                <a href="/peliculas/Princess-Khutulun.html">
+                <a href="/peliculas/1/Princess-Khutulun.html">
                     <div>Princess Khutulun</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Jack-in-the-Box-2-El-despertar.html">
+                <a href="/peliculas/1/Jack-in-the-Box-2-El-despertar.html">
                     <div>Jack in the Box 2: El despertar</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Jack-in-the-Box-2-El-despertar.html">
+                <a href="/peliculas/1/Jack-in-the-Box-2-El-despertar.html">
                     <div>The Jack in the Box: Awakening</div>
                 </a>
             </td>
-
+        
         </tr>
-
+        
         <tr>
             <td>
-                <a href="/peliculas/Arde-Notre-Dame.html">
+                <a href="/peliculas/1/Arde-Notre-Dame.html">
                     <div>Arde Notre Dame</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Arde-Notre-Dame.html">
+                <a href="/peliculas/1/Arde-Notre-Dame.html">
                     <div>Notre-Dame On Fire</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Huesera.html">
+                <a href="/peliculas/1/Huesera.html">
                     <div>Huesera</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Identidad-desbloqueda.html">
+                <a href="/peliculas/1/Identidad-desbloqueda.html">
                     <div>Identidad desbloqueada</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/El-ultimo-baile-de-Magic-Mike.html">
+                <a href="/peliculas/1/El-ultimo-baile-de-Magic-Mike.html">
                     <div>El último baile de Magic Mike</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/El-ultimo-baile-de-Magic-Mike.html">
+                <a href="/peliculas/1/El-ultimo-baile-de-Magic-Mike.html">
                     <div>Magic Mike's Last Dance</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Sharper-Un-plan-perfecto.html">
+                <a href="/peliculas/1/Sharper-Un-plan-perfecto.html">
                     <div>Sharper: Un plan perfecto</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Un-vecino-grunon.html">
+                <a href="/peliculas/1/Un-vecino-grunon.html">
                     <div>Un vecino gruñón</div>
                 </a>
             </td>
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Un-vecino-grunon.html">
+                <a href="/peliculas/1/Un-vecino-grunon.html">
                     <div> A Man Called Otto</div>
                 </a>
             </td>
         </tr>
-
+        
         <tr>
-
+        
             <td>
-                <a href="/peliculas/Pantera-Negra-Wakanda-por-siempre.html">
+                <a href="/peliculas/1/Pantera-Negra-Wakanda-por-siempre.html">
                     <div>Pantera Negra: Wakanda por siempre</div>
                 </a>
             </td>
-
+        
         </tr>
         <tr>
-
+        
             <td>
-                <a href="/peliculas/Pantera-Negra-Wakanda-por-siempre.html">
+                <a href="/peliculas/1/Pantera-Negra-Wakanda-por-siempre.html">
                     <div>Black Panther: Wakanda Forever</div>
                 </a>
             </td>
-
+        
         </tr>
-
+        
         <tr>
-
+        
             <td>
                 <a href="/Series/Peacemaker/Peacemaker.html">
                     <div>Peacemaker</div>
                 </a>
             </td>
-
+        
         </tr>
         <tr>
             <td>
-                <a href="/peliculas/Encanto.html">
+                <a href="/peliculas/1/Encanto.html">
                     <div>Encanto</div>
                 </a>
             </td>
-
+        
         </tr>
         <tr>
             <td>
