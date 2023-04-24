@@ -26,13 +26,43 @@ header.innerHTML = `
             </thead>
             <tbody>
 
+
+            
+                <tr>
+                <td>
+                      <a href="/peliculas/2/Juego-del-amor.html">
+                            <div>Juego del amor</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Quasi.html">
+                            <div>Quasi</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Adrenaline.html">
+                            <div>Adrenaline</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Ghosteado.html">
+                            <div>Ghosteado</div>
+                        </a>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/peliculas/2/Ant-Man-and-The-Wasp-Quantumania.html">
                             <div>Ant-Man and The Wasp: Quantumania</div>
                         </a>
                     </td>
-                </tr>}
+                </tr>
                 <tr>
                     <td>
                         <a href="/peliculas/2/El-vuelo-de-los-ladrones.html">
