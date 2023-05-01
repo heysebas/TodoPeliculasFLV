@@ -27,6 +27,14 @@ header.innerHTML = `
             <tbody>
 
 
+
+     <tr>
+        <td>
+             <a href="/peliculas/2/Avatar_El_camino_del_agua.html">
+                <div>Avatar: El camino del agua</div>
+            </a>
+        </td>
+    </tr>
     <tr>
         <td>
             <a href="/peliculas/2/Peter_Pan_y_Wendy.html">
