@@ -28,6 +28,20 @@ header.innerHTML = `
 
 
 
+            <tr>
+                    <td>
+                         <a href="/peliculas/2/Zootopia.html">
+                            <div>Zootopia</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                         <a href="/peliculas/2/Coco.html">
+                            <div>Coco</div>
+                        </a>
+                    </td>
+                </tr>
      <tr>
         <td>
              <a href="/peliculas/2/Avatar_El_camino_del_agua.html">
