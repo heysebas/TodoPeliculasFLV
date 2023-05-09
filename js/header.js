@@ -29,6 +29,13 @@ header.innerHTML = `
 
 
             <tr>
+                <td>
+                     <a href="/Series/Chucky/Chucky.html">
+                        <div>Chucky</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
                     <td>
                          <a href="/peliculas/2/Zootopia.html">
                             <div>Zootopia</div>
