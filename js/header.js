@@ -40,19 +40,19 @@ header.innerHTML = `
                         </td>
                     </tr>
                     <tr>
-                        <td>
-                            <a href="/Series/1/Monstruo_La_historia_de_Jeffrey_Dahmer/">
-                                <div>Monstruo: La historia de Jeffrey Dahmer</div>
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <a href="/Series/1/Monstruo_La_historia_de_Jeffrey_Dahmer/">
-                                <div>Jeffrey Dahmer</div>
-                            </a>
-                        </td>
-                    </tr>
+                    <td>
+                        <a href="/Series/1/Monstruo_La_historia_de_Jeffrey_Dahmer/Monstruo_La_historia_de_Jeffrey_Dahmer.html">
+                            <div>Monstruo: La historia de Jeffrey Dahmer</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/Series/1/Monstruo_La_historia_de_Jeffrey_Dahmer/Monstruo_La_historia_de_Jeffrey_Dahmer.html">
+                            <div>Jeffrey Dahmer</div>
+                        </a>
+                    </td>
+                </tr>
                     <tr>
                         <td>
                             <a href="/peliculas/2/El_banquero.html">
