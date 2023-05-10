@@ -4,7 +4,7 @@ header.innerHTML = `
 <a href="/index.html"><img class="log" src="/images/logo2.png" alt="logo"></a>
 <nav>
     <ul class="nav_links">
-        <li> <a href="/index.html">Inicio</a></li>
+        <li> <a href="/">Inicio</a></li>
         <li> <a href="/menu/peliculas.html">Peliculas</a></li>
         <li> <a href="/menu/series.html">Series</a></li>
     </ul>
@@ -25,6 +25,13 @@ header.innerHTML = `
                     </tr>
                 </thead>
                 <tbody>
+                <tr>
+                <td>
+                    <a href="/Series/1/The_Last_of_Us/The_Last_of_Us.html">
+                        <div>The Last of Us</div>
+                    </a>
+                </td>
+            </tr>
                 <tr>
                     <td>
                         <a href="/peliculas/2/M3GAN.html">
