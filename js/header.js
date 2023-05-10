@@ -25,21 +25,21 @@ header.innerHTML = `
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>
-                            <a href="/peliculas/2/M3GAN_UNRATED.html">
-                                <div>M3GAN UNRATED</div>
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <a href="/peliculas/2/M3GAN.html">
-                                <div>M3GAN</div>
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/M3GAN.html">
+                            <div>M3GAN</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/M3GAN_UNRATED.html">
+                            <div>M3GAN UNRATED</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
                     <td>
                         <a href="/Series/1/Monstruo_La_historia_de_Jeffrey_Dahmer/Monstruo_La_historia_de_Jeffrey_Dahmer.html">
                             <div>Monstruo: La historia de Jeffrey Dahmer</div>
@@ -52,7 +52,7 @@ header.innerHTML = `
                             <div>Jeffrey Dahmer</div>
                         </a>
                     </td>
-                </tr>
+                </tr>             
                     <tr>
                         <td>
                             <a href="/peliculas/2/El_banquero.html">
