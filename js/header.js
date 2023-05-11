@@ -32,6 +32,20 @@ header.innerHTML = `
                     </a>
                 </td>
             </tr>
+            <tr>
+                    <td>
+                        <a href="/peliculas/2/Talentos_ocultos.html">
+                            <div>Talentos ocultos</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Renfield_Asistente_de_vampiro.html">
+                            <div>Renfield: Asistente de vampiro</div>
+                        </a>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/peliculas/2/M3GAN.html">
