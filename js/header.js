@@ -27,6 +27,27 @@ header.innerHTML = `
                 <tbody>
                 <tr>
                     <td>
+                        <a href="/peliculas/2/La_madre.html">
+                            <div>La madre</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/El_libro_de_la_vida.html">
+                            <div>El libro de la vida</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Guía_de_viaje_hacia_el_amor.html">
+                            <div>Guía de viaje hacia el amor</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/peliculas/2/Cráter.html">
                             <div>Cráter</div>
                         </a>
