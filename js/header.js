@@ -26,6 +26,13 @@ header.innerHTML = `
                 </thead>
                 <tbody>
                 <tr>
+                    <td>
+                        <a href="/peliculas/2/El_Valet.html">
+                            <div>El Valet</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
                 <td>
                     <a href="/Series/1/The_Last_of_Us/The_Last_of_Us.html">
                         <div>The Last of Us</div>
