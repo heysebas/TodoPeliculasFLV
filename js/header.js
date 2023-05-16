@@ -27,6 +27,13 @@ header.innerHTML = `
                 <tbody>
                 <tr>
                     <td>
+                        <a href="/peliculas/2/Super_Mario_Bros_La_película.html">
+                            <div>Super Mario Bros. La película</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/peliculas/2/La_madre.html">
                             <div>La madre</div>
                         </a>
