@@ -18,8 +18,8 @@ footer.innerHTML = `
 <P>TodoPeliculasFLV, tiene como objetivo brindarte un amplio catálogo de peliculas que no son transmitidos en los canales de TV en señal abierta, teniendo como fin el compartir con todos nuestros seguidores la mayor cantidad de peliculas, episodios y series  que salen cada año.</P></div>
 <div class="box"><h2>SIGUENOS</h2>
 <div class="red-social">
-    <a href="#"></a>
-    <a href="#"></a>
+    <a href="https://www.tiktok.com/@todopeliculasflv"><img class="red-social-img" src="/images/tik-tok.png" alt=""></a>
+    <a href="https://www.facebook.com/todopeliculasflv"><img class="red-social-img" src="/images/facebook.png" alt=""></a>
     <a href="#"></a>
     <a href="#"></a>
 </div></div>
