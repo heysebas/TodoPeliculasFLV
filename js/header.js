@@ -27,6 +27,48 @@ header.innerHTML = `
                 <tbody>
                 <tr>
                     <td>
+                        <a href="/peliculas/2/Los_blancos_no_saben_saltar.html">
+                            <div>Los blancos no saben saltar</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Astérix_y_Obélix_y_el_reino_medio.html">
+                            <div>Astérix y Obélix y el reino medio</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/John_Wick_4.html">
+                            <div>John Wick 4</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/365_días.html">
+                            <div>365 días</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/365_días_aquel_día.html">
+                            <div>365 días aquel día</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/365_días_más.html">
+                            <div>365 días más</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/peliculas/2/Moonfall.html">
                             <div>Moonfall</div>
                         </a>
