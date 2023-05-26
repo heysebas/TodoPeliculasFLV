@@ -5,7 +5,7 @@ header.innerHTML = `
 <nav>
     <ul class="nav_links">
         <li> <a href="/">Inicio</a></li>
-        <li> <a href="/menu/peliculas.html">Peliculas</a></li>
+        <li> <a href="/menu/peliculas.html">Películas</a></li>
         <li> <a href="/menu/series.html">Series</a></li>
     </ul>
 
