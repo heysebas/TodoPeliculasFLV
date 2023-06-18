@@ -27,6 +27,48 @@ header.innerHTML = `
                 <tbody>
                 <tr>
                     <td>
+                        <a href="/peliculas/2/Herbie_A_toda_marcha.html">
+                            <div>Herbie: A toda marcha</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Flamin_Hot.html">
+                            <div>Flamin' Hot</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Novia_Cibernética.html">
+                            <div>Novia Cibernética</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Rápidos_y_furiosos_X.html">
+                            <div>Rápidos y furiosos X</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Spider_Man_Un_nuevo_universo.html">
+                            <div>Spider-Man: Un nuevo universo</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Zoe_y_Tempestad.html">
+                            <div>Zoe y Tempestad</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/peliculas/2/Camino.html">
                             <div>Camino</div>
                         </a>
