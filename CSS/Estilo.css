@@ -1140,3 +1140,9 @@ tbody tr td :hover {
 Atributo style {
     display: none;
 }
+
+
+.red-social-img {
+    height: 30px;
+    padding: 3px;
+}

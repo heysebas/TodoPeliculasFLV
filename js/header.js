@@ -5,7 +5,7 @@ header.innerHTML = `
 <nav>
     <ul class="nav_links">
         <li> <a href="/">Inicio</a></li>
-        <li> <a href="/menu/peliculas.html">Peliculas</a></li>
+        <li> <a href="/menu/peliculas.html">Películas</a></li>
         <li> <a href="/menu/series.html">Series</a></li>
     </ul>
 
@@ -25,6 +25,223 @@ header.innerHTML = `
                     </tr>
                 </thead>
                 <tbody>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Guardianes_de_la_galaxia_Vol_3.html">
+                            <div>Guardianes de la galaxia Vol. 3</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Los_4_Fantásticos.html">
+                            <div>Los 4 Fantásticos</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Los_increíbles_2.html">
+                            <div>Los increíbles 2</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Los_increíbles.html">
+                            <div>Los increíbles</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Herbie_A_toda_marcha.html">
+                            <div>Herbie: A toda marcha</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Flamin_Hot.html">
+                            <div>Flamin' Hot</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Novia_Cibernética.html">
+                            <div>Novia Cibernética</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Rápidos_y_furiosos_X.html">
+                            <div>Rápidos y furiosos X</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Spider_Man_Un_nuevo_universo.html">
+                            <div>Spider-Man: Un nuevo universo</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Zoe_y_Tempestad.html">
+                            <div>Zoe y Tempestad</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Camino.html">
+                            <div>Camino</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Los_blancos_no_saben_saltar.html">
+                            <div>Los blancos no saben saltar</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Astérix_y_Obélix_y_el_reino_medio.html">
+                            <div>Astérix y Obélix y el reino medio</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/John_Wick_4.html">
+                            <div>John Wick 4</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/365_días.html">
+                            <div>365 días</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/365_días_aquel_día.html">
+                            <div>365 días aquel día</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/365_días_más.html">
+                            <div>365 días más</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Moonfall.html">
+                            <div>Moonfall</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/El_exorcista_del_papa.html">
+                            <div>El exorcista del papa</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Amigos_intocables.html">
+                            <div>Amigos intocables</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Evil_Dead_El_despertar.html">
+                            <div>Evil Dead El despertar</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Siete_reyes_deben_morir.html">
+                            <div>Siete reyes deben morir</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Scream_6.html">
+                            <div>Scream 6</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Gigi_y_Nate.html">
+                            <div>Gigi y Nate</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/AIR_La_historia_detrás_del_logo.html">
+                            <div>AIR: La historia detrás del logo</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/El_bueno_el_malo_y_el_feo.html">
+                            <div>El bueno, el malo y el feo</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/El_Cuervo.html">
+                            <div>El Cuervo</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Super_Mario_Bros_La_película.html">
+                            <div>Super Mario Bros. La película</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/La_madre.html">
+                            <div>La madre</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/El_libro_de_la_vida.html">
+                            <div>El libro de la vida</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Guía_de_viaje_hacia_el_amor.html">
+                            <div>Guía de viaje hacia el amor</div>
+                        </a>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/peliculas/2/Cráter.html">
