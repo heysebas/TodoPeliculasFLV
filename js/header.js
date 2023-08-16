@@ -27,6 +27,34 @@ header.innerHTML = `
                 <tbody>
                 <tr>
                     <td>
+                        <a href="/peliculas/2/Spider_Man_A_través_del_Spider_Verso.html">
+                            <div>Spider-Man: A través del Spider-Verso</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/La_sirenita.html">
+                            <div>La sirenita</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Transformers_El_despertar_de_las_bestias.html">
+                            <div>Transformers: El despertar de las bestias</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Resident_Evil_Isla_de_la_Muerte.html">
+                            <div>Resident Evil: Isla de la Muerte</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/peliculas/2/Guardianes_de_la_galaxia_Vol_3.html">
                             <div>Guardianes de la galaxia Vol. 3</div>
                         </a>
