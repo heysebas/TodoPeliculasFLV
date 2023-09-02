@@ -26,6 +26,47 @@ header.innerHTML = `
                 </thead>
                 <tbody>
                 <tr>
+                <td>
+                <a href="/peliculas/2/Megalodón_2_El_gran_abismo.html">
+                    <div>Megalodón2: El gran abismo</div>
+                </a>
+            </td>
+            </tr>
+            <tr>
+            <td>
+                <a href="/peliculas/2/Hazme_el_favor.html">
+                    <div>Hazme el favor</div>
+                </a>
+            </td>
+            </tr>
+            <tr>
+            <td>
+                <a href="/peliculas/2/Flash.html">
+                    <div>Flash</div>
+                </a>
+            </td>
+            </tr>
+            <tr>
+            <td>
+                <a href="/peliculas/2/Elementos.html">
+                    <div>Elementos</div>
+                </a>
+            </td>
+            </tr>
+            <tr>
+            <td>
+                <a href="/peliculas/2/Zom_100_Cien_cosas_que_quiero_hacer_antes_de_convertirme_en_zombi.html">
+                    <div>Zom 100</div>
+                </a>
+            </td>
+            </tr>
+            <tr>
+            <td>
+                <a href="/peliculas/2/Tal_vez_es_para_siempre.html">
+                    <div>Tal vez es para siempre</div>
+                </a>
+            </td>
+            </tr>
                     <td>
                         <a href="/peliculas/2/Spider_Man_A_través_del_Spider_Verso.html">
                             <div>Spider-Man: A través del Spider-Verso</div>
