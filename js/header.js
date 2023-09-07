@@ -25,6 +25,34 @@ header.innerHTML = `
             </tr>
             </thead>
             <tbody>
+                    <tr>
+                    <td>
+                        <a href="/peliculas/2/Club_De_Asesinos_Los_Ángeles_Caídos_Héroes_Y_Criminales.html">
+                            <div>Club De Asesinos Los Ángeles Caídos: Héroes Y Criminales</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Club_de_Asesinos_Los_Ángeles_Caídos_Amigos_para_morir.html">
+                            <div>Club de Asesinos Los Ángeles Caídos: Amigos para morir</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Toc_toc_toc.html">
+                            <div>Toc toc toc</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/La_lista.html">
+                            <div>La lista</div>
+                        </a>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/peliculas/2/Megalodón.html">
