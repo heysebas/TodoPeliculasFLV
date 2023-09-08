@@ -25,6 +25,35 @@ header.innerHTML = `
             </tr>
             </thead>
             <tbody>
+
+            <tr>
+                    <td>
+                        <a href="/peliculas/2/Nothing_Is_Impossible.html">
+                            <div>Nothing Is Impossible</div>
+                        </a>
+                    </td>
+                </tr>
+            <tr>
+                    <td>
+                        <a href="/peliculas/2/Locas_en_apuros.html">
+                            <div>Locas en apuros</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Final_feliz.html">
+                            <div>Final feliz</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Hipnosis_Arma_invisible.html">
+                            <div>Hipnosis: Arma invisible</div>
+                        </a>
+                    </td>
+                </tr>
                     <tr>
                     <td>
                         <a href="/peliculas/2/Club_De_Asesinos_Los_Ángeles_Caídos_Héroes_Y_Criminales.html">
