@@ -930,61 +930,93 @@ tbody tr td :hover {
 
 
 
-/* Estilos para botones */
-.bonto-1, .bonto-2, .bonto-3, .bonto-4 {
+.bonto-1 {
     padding: 9px 25px;
     background-color: rgba(0, 136, 169, 1);
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
-    font-family: "Montserrat", sans-serif;
+    transition: all 0.3s ease 0s;
+}
+
+.bonto-1:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.bonto-1 {
+    font-family: "Montserray", sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 16;
     color: #edf0f1;
     text-decoration: none;
 }
 
-/* Cambio de color al pasar el mouse */
-.bonto-1:hover, .bonto-2:hover, .bonto-3:hover, .bonto-4:hover {
-    background-color: rgba(0, 136, 169, 0.8);
-}
-
-/* Estilos comunes para los botones .bonto-1, .bonto-2, .bonto-3, .bonto-4 */
-.bonto-1, .bonto-2, .bonto-3, .bonto-4 {
+.bonto-2 {
     padding: 9px 25px;
     background-color: rgba(0, 136, 169, 1);
     border: none;
     cursor: pointer;
-    transition: background-color 0.3s ease, border-radius 0.3s ease;
-    font-family: "Montserrat", sans-serif;
+    transition: all 0.3s ease 0s;
+}
+
+.bonto-2:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.bonto-2 {
+    font-family: "Montserray", sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 16;
     color: #edf0f1;
     text-decoration: none;
 }
 
-/* Estilos específicos para .bonto-2 */
-.bonto-2 {
-    border-bottom-right-radius: 0;
-}
-
-/* Estilos específicos para .bonto-3 */
 .bonto-3 {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
     border-bottom-right-radius: 50px;
-    border-bottom-left-radius: 0;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
 }
 
-/* Estilos específicos para .bonto-4 */
-.bonto-4 {
-    border-bottom-left-radius: 50px;
-}
-
-/* Cambio de color al pasar el mouse */
-.bonto-1:hover, .bonto-2:hover, .bonto-3:hover, .bonto-4:hover {
+.bonto-3:hover {
     background-color: rgba(0, 136, 169, 0.8);
 }
 
+.bonto-3 {
+    font-family: "Montserray", sans-serif;
+    font-weight: 500;
+    font-size: 16;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.bonto-4 {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-bottom-left-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.bonto-4:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.bonto-4 {
+    font-family: "Montserray", sans-serif;
+    font-weight: 500;
+    font-size: 16;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+Atributo style {
+    display: none;
+}
 
 .red-social-img {
     height: 30px;
