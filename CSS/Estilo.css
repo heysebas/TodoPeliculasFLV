@@ -1,21 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@100&display=swap');
 
+/* Estilos generales */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /*background-color: #24252A;*/
 }
 
-
-
-li,
-a,
-button {
+li,a,button {
     font-family: "Montserray", sans-serif;
     font-weight: 500;
-    font-size: 16;
+    font-size: 16px;
     color: #edf0f1;
     text-decoration: none;
 }
@@ -26,9 +22,9 @@ button {
     color: #202124;
 }
 
+/* Header */
 header {
     display: flex;
-    /*justify-content: flex-end;*/
     justify-content: space-between;
     align-items: center;
     padding: 20px 10%;
@@ -55,61 +51,47 @@ header {
 
 .logo {
     cursor: pointer;
-    /* margin-right: auto;*/
 }
-
+/* Navegación */
 .nav_links {
     list-style: none;
-
+    margin: 0;
+    padding: 0;
 }
 
 .nav_links li {
     display: inline-block;
-    padding: 0px 20px;
+    margin-right: 20px;
 }
 
 .nav_links li a {
-    transition: all 0.3s ease 0s;
+    transition: color 0.3s ease;
+    color: #edf0f1;
+    text-decoration: none;
 }
 
 .nav_links li a:hover {
     color: #0088a9;
 }
 
-
+/* Footer e iframe */
 footer {
     width: 100%;
-    height: px;
+    /* Agrega la altura que desees */
 }
 
 iframe {
     width: 100%;
 }
 
-/*
-button {
-    padding: 9px 25px;
-    background-color: rgba(0, 136, 169, 1);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
-
-button:hover {
-    background-color: rgba(0, 136, 169, 0.8);
-}
-
-*/
-
 :root {
-    --primary-colo: #24252A;
+    --primary-color: #24252A;
     --secondary-color: #313238;
     --tertiary-color: #202124;
 }
 
 body {
-    background-color: var(--primary-colo);
+    background-color: var(--primary-color);
     font-family: "Poppins", sans-serif;
 }
 
@@ -138,14 +120,10 @@ main {
     justify-content: center;
 }
 
-/********************pagination******************/
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+/********************* Pagination **********************/
 
+.container,
 .card-content {
     display: flex;
     flex-wrap: wrap;
@@ -172,7 +150,7 @@ main {
 }
 
 .previous-page,
-.netx-page {
+.next-page {
     background: #0088a9;
     width: 80px;
     border-radius: 45px;
@@ -180,12 +158,9 @@ main {
     transition: 0.3s ease;
 }
 
-.previous-page:hover {
+.previous-page:hover,
+.next-page:hover {
     transform: translateX(-5px);
-}
-
-.netx-page:hover {
-    transform: translateX(5px);
 }
 
 .current-page,
@@ -224,69 +199,34 @@ main {
     line-height: 40px;
     background-color: #fff;
     text-align: center;
-    
     text-decoration: none;
     color: #0088a9;
     border-radius: 4px;
     margin: 5px;
     box-shadow: inset 0 5px 10px rgba(0, 0, 0, .1), 0 2px 5px rgba(0, 0, 0, .5);
-    transition:  all 1s ease;
+    transition: all 1s ease;
 }
 
-.simple-pagination li a:hover{
+.simple-pagination li a:hover {
     background: #0088a9;
     color: #fff;
 }
 
-.simple-pagination .current{
+.simple-pagination .current {
     color: #fff;
     background-color: #0088a9;
     border-color: rgb(255, 255, 255);
-    border: 1px solid;  
+    border: 1px solid;
 }
 
 .simple-pagination .prev.current,
-.simple-pagination .next.ccurrent{
+.simple-pagination .next.current {
     background: #0088a9;
     border: none;
 }
 
-/* .bottom-field{
-    width: 100%;
-    padding: 20px;
-    margin-top: 20px;
-}
-.pagination{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.pagination li{
-  list-style: none;
-  padding: 2px;
-  margin: 10px;
-  flex-shrink: 0;
-  text-align: center;
-  border-radius: 5px;
-  border: 1px solid #999;
-  color: #999;
-}
-.pagination li.active{
-  background: #0088a9;
-  color: white;
-  border-color: #0088a9;
-
-}
-.pagination li a{
-  text-decoration: none;
-  padding: 3px 8px;
-  color: inherit;
-  display: block;
-  font-family: sans-serif;
-  font-size: 13px;
-} */
-/**********************************************/
-
+/********************* End Pagination **********************/
+/* Navegador */
 .navegador {
     width: 100%;
     display: flex;
@@ -301,7 +241,6 @@ main {
     padding: 8px;
     border-radius: 20px;
     justify-content: center;
-
 }
 
 .wrapper ul li {
@@ -309,7 +248,7 @@ main {
     line-height: 16px;
     text-align: center;
     font-size: 10px;
-    font-weight: 3;
+    font-weight: 300; /* Cambié el valor de font-weight a 300 */
     cursor: pointer;
     background-color: #313238;
     margin-right: 7%;
@@ -339,14 +278,14 @@ main {
     box-shadow: 0 0 20px;
 }
 
-
-
+/* Listas de películas */
 .lists__movies {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+/* Propaganda */
 .propaganda {
     float: right;
     width: 320px;
@@ -358,26 +297,26 @@ main {
     background-color: var(--primary-colo);
 }
 
+/* Lista de productos */
 .products-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
-
 }
 
+/* Lista de categorías */
 .category-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 1%;
-
 }
 
 .category_item {
     margin-right: 10px;
 }
 
+/* Mensaje de error */
 .error-message {
     display: flex;
     flex-direction: column;
@@ -405,6 +344,7 @@ main {
     color: #0088a9;
 }
 
+/* Animaciones */
 .animated {
     animation-duration: 2.5s;
     animation-fill-mode: both;
@@ -412,110 +352,56 @@ main {
 }
 
 @keyframes bounce {
-
-    0%,
-    20%,
-    50%,
-    80%,
-    100% {
+    0%, 20%, 50%, 80%, 100% {
         transform: translateY(0);
     }
-
     40% {
         transform: translateY(-30px);
     }
-
     60% {
         transform: translateY(-15px);
     }
-
 }
 
 .bounce {
     animation-name: bounce;
 }
-
-
 /* ------------------------------------------------------------------ */
-.wrap {
-    width: 100%;
-}
-
+/* Contenedor principal */
+.wrap,
 .store-wrapper {
     width: 100%;
 }
 
-/* .category_list{
-	display: flex;
-	flex-direction: column;
-	width: 18%;
-}
-
-.category_list .category_item{
-	display: block;
-	width: 90%;
-	padding: 15px 0;
-	margin-bottom: 20px;
-	background: #E84C3D;
-
-	text-align: center;
-	text-decoration: none;
-	color: #fff;
-}
-
-.category_list .ct_item-active{
-	background: #2D3E50;
-} */
-
-/* PRODUCTOS ============*/
-
+/* PRODUCTOS */
 .products-list {
     width: 82%;
     display: flex;
     flex-wrap: wrap;
 }
 
-
 .products-list .product-item {
-    /* width: 22%; */
-    /* margin-left: 3%; */
     margin-bottom: 25px;
     box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.22);
-
     display: flex;
     flex-direction: column;
     align-items: center;
     align-self: flex-start;
-
-    transition: all .4s;
+    transition: all 0.4s;
 }
 
 .products-list .product-item img {
     width: 100%;
 }
 
-/* .products-list .product-item a{
-	display: block;
-	width: 100%;
-	padding: 8px 0;
-	background: #2D3E50;
-
-	color: #fff;
-	text-align: center;
-	text-decoration: none;
-} */
-
-
-/* ------------------------------------------------------------------ */
-
-
-
+/* Botón de Centro */
 .botonCentro {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+/* Películas */
 .movie {
     width: 150px;
     margin: 1rem;
@@ -526,7 +412,6 @@ main {
     overflow: hidden;
     z-index: 1;
     max-height: 100%;
-
 }
 
 .movie img {
@@ -557,7 +442,6 @@ main {
     border-radius: 6px;
     font-weight: bold;
     z-index: 1;
-
 }
 
 .overview {
@@ -578,17 +462,18 @@ main {
     transform: translateY(0);
 }
 
+/* Botón 1 */
 .boton1 {
     align-items: center;
     justify-content: center;
 }
 
 
+
 /*----------------------------------------------------*/
 
 
-/*search*/
-
+/* Ocultar elementos de la tabla */
 #table_length,
 #table_filter,
 #table_info,
@@ -596,13 +481,13 @@ main {
     display: none;
 }
 
+/* Estilos de la barra de búsqueda */
 .content-search {
     width: 300px;
     height: 100vh;
     position: absolute;
     top: 67px;
     left: 67%;
-    /*background: yellow;*/
     display: none;
     z-index: 10000;
     border-radius: 20px;
@@ -612,6 +497,7 @@ main {
     width: 7px;
 }
 
+/* Estilos de la tabla de resultados */
 .content-table {
     width: 300px;
     max-height: 200px;
@@ -622,7 +508,6 @@ main {
     overflow-y: visible;
     overflow-x: hidden;
     z-index: 3;
-
 }
 
 .content-table::-webkit-scrollbar {
@@ -633,6 +518,7 @@ main {
     width: 100%;
 }
 
+/* Estilos de los elementos de la tabla */
 .texte {
     color: #24252A;
 }
@@ -646,31 +532,33 @@ tbody tr td {
 }
 
 tbody tr td :hover {
-    background: rgba(0, 0, 0, 3);
+    background: rgba(0, 0, 0, 0.3);
     border-radius: 5px;
     z-index: 10000;
 }
 
+/* Estilo para el mensaje de "No se encontraron datos" */
 .dataTables_empty {
     color: #eee;
 }
 
 
-/*--------------------------------------------------------------------------*/
 
+//*--------------------------------------------------------------------------*/
+/* Estilos para el pie de página */
 .ifFooter {
     width: 100% !important;
     height: 80px;
     border: none;
 }
-
-
 /*--------------------------------------------------------------------------*/
 
+/* Estilos para la barra de desplazamiento en elementos con la clase "movie" */
 .movie::-webkit-scrollbar {
     width: 7px;
 }
 
+/* Estilos para los reproductores de video */
 .players {
     width: 330px;
     height: 40px;
@@ -683,13 +571,13 @@ tbody tr td :hover {
     display: none;
 }
 
-
 .players-fila {
     float: left;
     margin: 6px;
     color: #edf0f1;
 }
 
+/* Estilos para la sección de reproducción de video */
 .play {
     width: 720;
     height: 450;
@@ -709,16 +597,14 @@ tbody tr td :hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
 .play-3 {
     max-width: 50%;
 }
 
-
 /*-------------------------------------------------*/
-
+/* Estilos para los contenedores de contenido */
 .conteiner-all {
     width: 100%;
     max-width: 1000px;
@@ -736,7 +622,6 @@ tbody tr td :hover {
     margin-block-end: 1%;
     border-radius: 10px;
     box-shadow: 0 0 30px;
-
 }
 
 .conteiner-all p {
@@ -749,13 +634,13 @@ tbody tr td :hover {
 .conteiner-all h1 {
     color: #edf0f1;
     margin: 8px;
-
 }
 
 .conteiner-all li {
     margin: 9px;
 }
 
+/* Estilos para otro tipo de contenedor */
 .conteiner-all-2 {
     width: 100%;
     max-width: 1000px;
@@ -779,6 +664,7 @@ tbody tr td :hover {
     margin: 8px;
 }
 
+/* Otro tipo de contenedor */
 .conteiner-all-3 {
     width: 100%;
     max-width: 1000px;
@@ -794,8 +680,6 @@ tbody tr td :hover {
 .conteiner-all-3 img {
     margin-top: 1%;
 }
-
-
 
 .conteiner-all-3 p {
     justify-content: center;
@@ -820,7 +704,7 @@ tbody tr td :hover {
 /*--------------------------------------------------------------------------*/
 
 
-/*::::: pie de Pagina*/
+/*::::::::: Pie de Página */
 
 .pie-pagina {
     width: 100%;
@@ -870,18 +754,18 @@ tbody tr td :hover {
     color: #fff;
 }
 
-@media screen and (max-width:1500px) {
+@media screen and (max-width: 1500px) {
     .pie-pagina {
         height: 100%;
     }
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
     header {
         display: block;
         margin: 12px 0;
         padding: 0px 25px;
-        right: 092%;
+        right: 92%; /* Corregido el valor */
     }
 
     .search {
@@ -900,19 +784,16 @@ tbody tr td :hover {
         width: 300px;
         height: 100vh;
         position: absolute;
-        top: 29%;
+        top: 29%; /* Corregido el valor */
         left: 1%;
-        /*background: yellow;*/
         display: none;
         z-index: 10000;
         border-radius: 20px;
     }
 
-
-
     .nav_links.nav_links.open {
         position: absolute;
-        top: 25%;
+        top: 25%; /* Corregido el valor */
         left: 1%;
         width: 210px;
         height: 30vh;
@@ -921,14 +802,9 @@ tbody tr td :hover {
         flex-direction: column;
         justify-content: flex-start;
         border-radius: 10px;
-        transition: all .50 ease;
+        transition: all 0.5s ease;
         z-index: 2;
-
     }
-
-
-
-
 
     .pie-pagina .grupo-1 {
         width: 90%;
@@ -938,7 +814,7 @@ tbody tr td :hover {
     }
 }
 
-@media screen and (max-width:2000px) {
+@media screen and (max-width: 2000px) {
     .propaganda {
         width: 1px;
         height: 1px;
@@ -946,10 +822,10 @@ tbody tr td :hover {
     }
 }
 
-@media (max-width:1280px) {
+@media (max-width: 1280px) {
     header {
         padding: 14px 2%;
-        transition: .2s;
+        transition: 0.2s;
     }
 
     .nav_links a {
@@ -962,12 +838,10 @@ tbody tr td :hover {
     display: none;
 }
 
-@media (max-width:1090px) {
+@media (max-width: 1090px) {
     .bx-menu {
         display: block;
     }
-
-
 
     .nav_links {
         position: absolute;
@@ -980,16 +854,15 @@ tbody tr td :hover {
         flex-direction: column;
         justify-content: flex-start;
         border-radius: 10px;
-        transition: all .50 ease;
+        transition: all 0.5s ease;
         z-index: 2;
-
     }
 
     .nav_links a {
         display: block;
         margin: 12px 0;
         padding: 0px 25px;
-        transition: all .50 ease;
+        transition: all 0.5s ease;
     }
 
     .nav_links a:hover {
@@ -1004,7 +877,6 @@ tbody tr td :hover {
     .nav_links.open {
         right: 2%;
     }
-
 }
 
 .disclaimer {
@@ -1014,37 +886,42 @@ tbody tr td :hover {
 
 /*--------------------------------------------------------------------------*/
 
+/* Sección destacados */
 .destacados {
     width: 100%;
     float: left;
 }
 
+/* Margen para el pie de página */
 .margefoter {
     margin-top: 50px;
 }
 
-.CapNv {
-    /* background-color: #2e3437;*/
-    width: 100%;
-    position: static;
-    margin-top: 15px;
-    /* margin-left: -15.1%;*/
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
+/* Estilos comunes para elementos con clases .CapNv y .boton1 */
+.CapNv,
 .boton1 {
     width: 100%;
-    background-color: var(--tertiary-color);
     position: static;
-    margin-top: 20px;
-    left: 10%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+/* Estilos específicos para .CapNv */
+.CapNv {
+    /* background-color: #2e3437; */
+    margin-top: 15px;
+    /* margin-left: -15.1%; */
+}
+
+/* Estilos específicos para .boton1 */
+.boton1 {
+    background-color: var(--tertiary-color);
+    margin-top: 20px;
+    left: 10%;
+}
+
+/* Estilos para elementos con clase .saga */
 .saga {
     width: 100%;
     justify-content: center;
@@ -1053,92 +930,59 @@ tbody tr td :hover {
 
 
 
-.bonto-1 {
+/* Estilos para botones */
+.bonto-1, .bonto-2, .bonto-3, .bonto-4 {
     padding: 9px 25px;
     background-color: rgba(0, 136, 169, 1);
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
-
-.bonto-1:hover {
-    background-color: rgba(0, 136, 169, 0.8);
-}
-
-.bonto-1 {
-    font-family: "Montserray", sans-serif;
+    transition: background-color 0.3s ease;
+    font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    font-size: 16;
+    font-size: 16px;
     color: #edf0f1;
     text-decoration: none;
 }
 
-.bonto-2 {
+/* Cambio de color al pasar el mouse */
+.bonto-1:hover, .bonto-2:hover, .bonto-3:hover, .bonto-4:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+/* Estilos comunes para los botones .bonto-1, .bonto-2, .bonto-3, .bonto-4 */
+.bonto-1, .bonto-2, .bonto-3, .bonto-4 {
     padding: 9px 25px;
     background-color: rgba(0, 136, 169, 1);
     border: none;
     cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
-
-.bonto-2:hover {
-    background-color: rgba(0, 136, 169, 0.8);
-}
-
-.bonto-2 {
-    font-family: "Montserray", sans-serif;
+    transition: background-color 0.3s ease, border-radius 0.3s ease;
+    font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    font-size: 16;
+    font-size: 16px;
     color: #edf0f1;
     text-decoration: none;
 }
 
+/* Estilos específicos para .bonto-2 */
+.bonto-2 {
+    border-bottom-right-radius: 0;
+}
+
+/* Estilos específicos para .bonto-3 */
 .bonto-3 {
-    padding: 9px 25px;
-    background-color: rgba(0, 136, 169, 1);
-    border: none;
     border-bottom-right-radius: 50px;
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
+    border-bottom-left-radius: 0;
 }
 
-.bonto-3:hover {
-    background-color: rgba(0, 136, 169, 0.8);
-}
-
-.bonto-3 {
-    font-family: "Montserray", sans-serif;
-    font-weight: 500;
-    font-size: 16;
-    color: #edf0f1;
-    text-decoration: none;
-}
-
+/* Estilos específicos para .bonto-4 */
 .bonto-4 {
-    padding: 9px 25px;
-    background-color: rgba(0, 136, 169, 1);
-    border: none;
     border-bottom-left-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
 }
 
-.bonto-4:hover {
+/* Cambio de color al pasar el mouse */
+.bonto-1:hover, .bonto-2:hover, .bonto-3:hover, .bonto-4:hover {
     background-color: rgba(0, 136, 169, 0.8);
-}
-
-.bonto-4 {
-    font-family: "Montserray", sans-serif;
-    font-weight: 500;
-    font-size: 16;
-    color: #edf0f1;
-    text-decoration: none;
-}
-
-Atributo style {
-    display: none;
 }
 
 

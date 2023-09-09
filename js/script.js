@@ -33,8 +33,6 @@ footer.innerHTML = `
 </div>
 `;
 
-
-
 $(document).ready(function () {
 
     // AGREGANDO CLASE ACTIVE AL PRIMER ENLACE ====================
