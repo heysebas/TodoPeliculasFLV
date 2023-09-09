@@ -27,6 +27,41 @@ header.innerHTML = `
                  <tbody>
                  <tr>
                     <td>
+                        <a href="/peliculas/2/En_algún_lugar_de_Queens.html">
+                            <div>En algún lugar de Queens</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Drácula_Mar_de_sangre.html">
+                            <div>Drácula: Mar de sangre</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Conjuro_siniestro.html">
+                            <div>Conjuro siniestro</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/El_deseo_de_Phillip.html">
+                            <div>El deseo de Phillip</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/El_misterio_de_la_casa_del_lago.html">
+                            <div>El misterio de la casa del lago</div>
+                        </a>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
                         <a href="/peliculas/2/El_Rey_Mono.html">
                             <div>El Rey Mono</div>
                         </a>
