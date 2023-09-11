@@ -27,6 +27,62 @@ header.innerHTML = `
                  <tbody>
                  <tr>
                     <td>
+                        <a href="/peliculas/2/Harry_Potter_y_las_reliquias_de_la_muerte_Parte_2.html">
+                            <div>Harry Potter y las reliquias de la muerte - Parte 2</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Harry_Potter_y_las_reliquias_de_la_muerte.html">
+                            <div>Harry Potter y las reliquias de la muerte</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Harry_Potter_y_el_misterio_del_príncipe.html">
+                            <div>Harry Potter y el misterio del príncipe</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Harry_Potter_y_la_Orden_del_Fénix.html">
+                            <div>Harry Potter y la Orden del Fénix</div>
+                        </a>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/peliculas/2/Harry_Potter_y_el_cáliz_de_fuego.html">
+                            <div>Harry Potter y el cáliz de fuego</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Harry_Potter_y_el_prisionero_de_Azkaban.html">
+                            <div>Harry Potter y el prisionero de Azkaban</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Harry_Potter_y_la_cámara_secreta.html">
+                            <div>Harry Potter y la cámara secreta</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Harry_Potter_y_la_piedra_filosofal.html">
+                            <div>Harry Potter y la piedra filosofal</div>
+                        </a>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
                         <a href="/peliculas/2/Un_camino_de_fe.html">
                             <div>Un camino de fe</div>
                         </a>
