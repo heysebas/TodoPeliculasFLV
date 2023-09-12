@@ -27,6 +27,20 @@ header.innerHTML = `
                  <tbody>
                  <tr>
                     <td>
+                        <a href="/peliculas/2/El_justiciero_2.html">
+                            <div>El justiciero 2</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/El_justiciero.html">
+                            <div>El justiciero</div>
+                        </a>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
                         <a href="/peliculas/2/Harry_Potter_y_las_reliquias_de_la_muerte_Parte_2.html">
                             <div>Harry Potter y las reliquias de la muerte - Parte 2</div>
                         </a>
