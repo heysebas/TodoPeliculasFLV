@@ -26,6 +26,41 @@ header.innerHTML = `
             </thead>
                  <tbody>
                  <tr>
+                 <td>
+                     <a href="/peliculas/2/Amigos_de_las_vacaciones_2.html">
+                         <div>Amigos de las vacaciones 2</div>
+                     </a>
+                 </td>
+             </tr>
+             <tr>
+                 <td>
+                     <a href="/peliculas/2/Boogeyman_Tu_miedo_es_real.html">
+                         <div>Boogeyman: Tu miedo es real</div>
+                     </a>
+                 </td>
+             </tr>
+             <tr>
+                 <td>
+                     <a href="/peliculas/2/La_maldición_de_la_Torre.html">
+                         <div>La maldición de la Torre</div>
+                     </a>
+                 </td>
+             </tr>
+             <tr>
+                 <td>
+                     <a href="/peliculas/2/Alguien_que_cuide_de_mí.html">
+                         <div>Alguien que cuide de mí</div>
+                     </a>
+                 </td>
+             </tr>
+             <tr>
+                 <td>
+                     <a href="/peliculas/2/El_club_de_los_lectores_criminales.html">
+                         <div>El club de los lectores criminales</div>
+                     </a>
+                 </td>
+             </tr>
+                 <tr>
                     <td>
                         <a href="/peliculas/2/El_justiciero_2.html">
                             <div>El justiciero 2</div>
