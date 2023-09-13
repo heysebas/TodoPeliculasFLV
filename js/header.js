@@ -26,6 +26,20 @@ header.innerHTML = `
             </thead>
                  <tbody>
                  <tr>
+                    <td>
+                        <a href="/peliculas/2/Hijos_de_perra.html">
+                            <div>Hijos de perra</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/La_flauta_de_Mozart.html">
+                            <div>La flauta de Mozart</div>
+                        </a>
+                    </td>
+                </tr>
+                 <tr>
                  <td>
                      <a href="/peliculas/2/Amigos_de_las_vacaciones_2.html">
                          <div>Amigos de las vacaciones 2</div>
