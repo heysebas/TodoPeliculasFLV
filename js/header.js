@@ -27,6 +27,48 @@ header.innerHTML = `
                  <tbody>
                  <tr>
                     <td>
+                        <a href="/peliculas/2/Hansel_y_Gretel_Cazadores_de_brujas.html">
+                            <div>Hansel y Gretel: Cazadores de brujas</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Un_día_como_león.html">
+                            <div>Un día como león</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Casi_muerta.html">
+                            <div>Casi muerta</div>
+                        </a>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/peliculas/2/Venture_Bros_La_sangre_es_brillante.html">
+                            <div>Venture Bros.: La sangre es brillante</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/El_regreso_de_Manson.html">
+                            <div>El regreso de Manson</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Un_juego_de_seducción.html">
+                            <div>Un juego de seducción</div>
+                        </a>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
                         <a href="/peliculas/2/Barbie.html">
                             <div>Barbie</div>
                         </a>
