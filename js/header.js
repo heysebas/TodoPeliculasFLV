@@ -26,6 +26,20 @@ header.innerHTML = `
             </thead>
                  <tbody>
                  <tr>
+                 <td>
+                     <a href="/peliculas/2/Devoradora_de_almas.html">
+                         <div>Devoradora de almas</div>
+                     </a>
+                 </td>
+             </tr>
+             <tr>
+                 <td>
+                     <a href="/peliculas/2/Brujería.html">
+                         <div>Brujería</div>
+                     </a>
+                 </td>
+             </tr>
+                 <tr>
                 <td>
                     <a href="/peliculas/2/Rey_Richard_Una_familia_ganadora.html">
                         <div>Rey Richard: Una familia ganadora</div>
