@@ -93,7 +93,7 @@ function getPageList(totalPages, page, maxLength) {
     }
 
     if (page >= totalPages - sideWidth - 1 - rigtWidth) {
-        return renge(1, sideWidth).concat(0, range(totalPages- sideWidth - 1 - rigtWidth - lefWidth, totalPages));
+        return renge(1, sideWidth).concat(0, range(totalPages - sideWidth - 1 - rigtWidth - lefWidth, totalPages));
     }
 
     return range(1, sideWidth).concat(0, range(page - lefWidth, page + rigtWidth), 0, range(totalPages - sideWidth + 1, totalPages));
@@ -163,6 +163,21 @@ function getPageList(totalPages, page, maxLength) {
 //         var showFrom = perPage * (pageNumber - 1);
 //         var showTo = showFrom + perPage;
 //         items.hide(),slice(showFrom, showTo).show();
-    
+
 //     }
 // });
+
+
+
+
+const temporadas = document.querySelectorAll('.temporada');
+temporadas.forEach(temporada => {
+    temporada.addEventListener('click', () => {
+        const capitulos = temporada.nextElementSibling;
+        if (capitulos.style.display === 'none' || capitulos.style.display === '') {
+            capitulos.style.display = 'block';
+        } else {
+            capitulos.style.display = 'none';
+        }
+    });
+});
