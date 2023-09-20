@@ -8,7 +8,9 @@
     padding: 0;
 }
 
-li,a,button {
+li,
+a,
+button {
     font-family: "Montserray", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -52,6 +54,7 @@ header {
 .logo {
     cursor: pointer;
 }
+
 /* Navegación */
 .nav_links {
     list-style: none;
@@ -133,8 +136,10 @@ main {
 .pagination {
     text-align: center;
     margin: 30px 30px 60px;
-    user-select: none; /* Para navegadores compatibles, excepto Safari */
-    -webkit-user-select: none; /* Para Safari 3+ y Safari en iOS 3+ */
+    user-select: none;
+    /* Para navegadores compatibles, excepto Safari */
+    -webkit-user-select: none;
+    /* Para Safari 3+ y Safari en iOS 3+ */
 }
 
 
@@ -250,7 +255,8 @@ main {
     line-height: 16px;
     text-align: center;
     font-size: 10px;
-    font-weight: 300; /* Cambié el valor de font-weight a 300 */
+    font-weight: 300;
+    /* Cambié el valor de font-weight a 300 */
     cursor: pointer;
     background-color: #313238;
     margin-right: 7%;
@@ -354,12 +360,19 @@ main {
 }
 
 @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
         transform: translateY(0);
     }
+
     40% {
         transform: translateY(-30px);
     }
+
     60% {
         transform: translateY(-15px);
     }
@@ -368,6 +381,7 @@ main {
 .bounce {
     animation-name: bounce;
 }
+
 /* ------------------------------------------------------------------ */
 /* Contenedor principal */
 .wrap,
@@ -553,6 +567,7 @@ tbody tr td :hover {
     height: 80px;
     border: none;
 }
+
 /*--------------------------------------------------------------------------*/
 
 /* Estilos para la barra de desplazamiento en elementos con la clase "movie" */
@@ -1034,7 +1049,7 @@ Atributo style {
 
 img[alt="www.000webhost.com"] {
     display: none;
-  }
+}
 
 
 
@@ -1048,8 +1063,10 @@ img[alt="www.000webhost.com"] {
 
 /* Estilo para el enlace dentro del span */
 .conteiner-all-2 .capitulos .conteiner-all-3 .destacados a.cap {
-    display: inline-block; /* Hacer que el enlace sea un bloque en línea */
-    margin: 0 auto; /* Centrar el bloque en línea horizontalmente */
+    display: inline-block;
+    /* Hacer que el enlace sea un bloque en línea */
+    margin: 0 auto;
+    /* Centrar el bloque en línea horizontalmente */
 }
 
 
@@ -1057,25 +1074,35 @@ img[alt="www.000webhost.com"] {
 .conteiner-all-2 .temporada {
     width: 100%;
     align-items: center;
-    text-align: center; /* Centrar el texto horizontalmente */
-    font-size: 24px; /* Tamaño de fuente del título de la temporada */
-    margin-bottom: 10px; /* Espacio entre el título de la temporada y los elementos destacados */
+    text-align: center;
+    /* Centrar el texto horizontalmente */
+    font-size: 24px;
+    /* Tamaño de fuente del título de la temporada */
+    margin-bottom: 10px;
+    /* Espacio entre el título de la temporada y los elementos destacados */
 }
 
 /* Estilo para los elementos destacados */
 .conteiner-all-2 .destacados {
-    float: left; /* Colocar elementos destacados a la izquierda */
-    width: 30%; /* Ancho de los elementos destacados */
+    float: left;
+    /* Colocar elementos destacados a la izquierda */
+    width: 30%;
+    /* Ancho de los elementos destacados */
     align-items: center;
-    margin-right: 2%; /* Margen derecho para separar de los capítulos */
-    margin-bottom: 10px; /* Espacio entre elementos destacados */
+    margin-right: 2%;
+    /* Margen derecho para separar de los capítulos */
+    margin-bottom: 10px;
+    /* Espacio entre elementos destacados */
 }
 
 /* Estilo para los capítulos */
 .capitulos {
-    float: left; /* Colocar capítulos a la izquierda */
-    width: 68%; /* Ancho de los capítulos (deja un 2% para el margen derecho) */
-    margin-bottom: 10px; /* Espacio entre capítulos */
+    float: left;
+    /* Colocar capítulos a la izquierda */
+    width: 68%;
+    /* Ancho de los capítulos (deja un 2% para el margen derecho) */
+    margin-bottom: 10px;
+    /* Espacio entre capítulos */
     align-items: center;
 }
 
@@ -1085,4 +1112,115 @@ img[alt="www.000webhost.com"] {
 }
 
 
+.carousel-container-prin {
+    position: relative;
+    width: 100%;
+    height: 470px;
+    margin-top: 1%;
+}
 
+
+/* Estilos para el carrusel */
+.carousel-container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.carousel-slide {
+    display: none;
+    width: 100%;
+    position: relative;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-dots {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.carousel-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #333;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.carousel-dot.active {
+    background-color: #fff;
+}
+
+/* Estilo para el título y la descripción */
+.image-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.carousel-slide:hover .image-info {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.carousel-dot:hover~.image-info {
+    opacity: 0;
+    transform: translateX(100%);
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para otros elementos de la página */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.propaganda {
+    text-align: center;
+    padding: 10px;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+
+@media screen and (max-width: 600px) {
+    .carousel-container-prin {
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .carousel-slide img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .carousel-dots {
+        margin-top: 5px;
+    }
+}

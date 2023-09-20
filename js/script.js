@@ -181,3 +181,57 @@ temporadas.forEach(temporada => {
         }
     });
 });
+
+
+
+
+
+
+let currentSlide = 0;
+const slides = document.querySelectorAll('.carousel-slide');
+const dots = document.querySelectorAll('.carousel-dot');
+
+function showSlide(index) {
+    slides.forEach((slide, i) => {
+        if (i === index) {
+            slide.style.display = 'block';
+        } else {
+            slide.style.display = 'none';
+        }
+    });
+
+    dots.forEach((dot, i) => {
+        if (i === index) {
+            dot.classList.add('active');
+        } else {
+            dot.classList.remove('active');
+        }
+    });
+
+    currentSlide = index;
+}
+
+function changeSlide(index) {
+    showSlide(index);
+}
+
+function autoChangeSlide() {
+    if (currentSlide === slides.length - 1) {
+        showSlide(0);
+    } else {
+        showSlide(currentSlide + 1);
+    }
+}
+
+// Asigna un evento clic a cada punto para cambiar la diapositiva
+dots.forEach((dot, index) => {
+    dot.addEventListener('click', () => {
+        changeSlide(index);
+    });
+});
+
+// Cambiar automáticamente las diapositivas cada 5 segundos (5000 ms)
+setInterval(autoChangeSlide, 5000);
+
+// Mostrar la primera diapositiva al cargar la página
+showSlide(0);
