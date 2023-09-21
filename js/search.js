@@ -10,3 +10,12 @@ $("#input-search").keyup(function(){
         $(".content-search").fadeIn(300);
     }
 })
+
+
+
+
+window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-LHZK7S44W3');
