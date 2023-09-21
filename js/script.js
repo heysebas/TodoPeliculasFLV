@@ -235,3 +235,4 @@ setInterval(autoChangeSlide, 5000);
 
 // Mostrar la primera diapositiva al cargar la página
 showSlide(0);
+
