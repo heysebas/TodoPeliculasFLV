@@ -190,6 +190,10 @@ temporadas.forEach(temporada => {
 let currentSlide = 0;
 const slides = document.querySelectorAll('.carousel-slide');
 const dots = document.querySelectorAll('.carousel-dot');
+const carouselContainer = document.querySelector('.carousel-container');
+const autoChangeInterval = 5000; // Intervalo en milisegundos para cambiar automáticamente las diapositivas
+
+let autoChangeTimer; // Variable para almacenar el temporizador de cambio automático
 
 function showSlide(index) {
     slides.forEach((slide, i) => {
@@ -223,6 +227,20 @@ function autoChangeSlide() {
     }
 }
 
+// Agregar evento 'mouseover' a la imagen para detener la transición automática
+slides.forEach((slide, index) => {
+    slide.addEventListener('mouseover', () => {
+        clearTimeout(autoChangeTimer); // Detener el temporizador de cambio automático
+    });
+
+    slide.addEventListener('mouseout', () => {
+        autoChangeTimer = setTimeout(autoChangeSlide, autoChangeInterval); // Reanudar el cambio automático después de cierto tiempo
+    });
+});
+
+// Cambiar automáticamente las diapositivas cada 'autoChangeInterval' milisegundos
+autoChangeTimer = setTimeout(autoChangeSlide, autoChangeInterval);
+
 // Asigna un evento clic a cada punto para cambiar la diapositiva
 dots.forEach((dot, index) => {
     dot.addEventListener('click', () => {
@@ -230,9 +248,17 @@ dots.forEach((dot, index) => {
     });
 });
 
-// Cambiar automáticamente las diapositivas cada 5 segundos (5000 ms)
-setInterval(autoChangeSlide, 5000);
-
 // Mostrar la primera diapositiva al cargar la página
 showSlide(0);
 
+
+
+
+//--------------------Google----------------------------
+window.dataLayer = window.dataLayer || [];
+function gtag() { dataLayer.push(arguments); }
+gtag('js', new Date());
+
+gtag('config', 'G-LHZK7S44W3');
+
+//-----------------------------------------------
