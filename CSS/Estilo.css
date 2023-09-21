@@ -1135,6 +1135,8 @@ img[alt="www.000webhost.com"] {
 .carousel-slide img {
     width: 100%;
     height: auto;
+    border-radius: 20px;
+    box-shadow: 0 5px 25px rgba(1 1 1 /50%);
 }
 
 .carousel-dots {
@@ -1169,6 +1171,8 @@ img[alt="www.000webhost.com"] {
     opacity: 0;
     transform: translateX(100%);
     transition: opacity 0.3s, transform 0.3s;
+    border-radius: 20px;
+    margin-bottom: 0.9%;
 }
 
 .carousel-slide:hover .image-info {
@@ -1181,20 +1185,7 @@ img[alt="www.000webhost.com"] {
     transform: translateX(100%);
 }
 
-/* Estilos generales */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
 
-/* Estilos para otros elementos de la página */
-.header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
 
 .propaganda {
     text-align: center;
