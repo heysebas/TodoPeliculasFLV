@@ -8,11 +8,6 @@
     padding: 0;
 }
 
-html,
-body {
-    height: 100%;
-}
-
 li,
 a,
 button {
@@ -101,8 +96,6 @@ iframe {
 body {
     background-color: var(--primary-color);
     font-family: "Poppins", sans-serif;
-    overflow-x: hidden;
-    /* Esto evita la barra de desplazamiento horizontal */
 }
 
 .search {
@@ -124,7 +117,11 @@ body {
     color: #edf0f1;
 }
 
-
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 
 /********************* Pagination **********************/
