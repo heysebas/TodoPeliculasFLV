@@ -63,6 +63,44 @@
                 webkitAllowFullScreen mozallowfullscreen allowfullscreen frameborder="0" scrolling="no"></iframe>
 
         </div>
+
+
+
+        <!-- /*Reportar problema*/ -->
+        <button id="reportButton">Reportar Problema</button>
+
+        <div id="reportForm" class="overlay">
+            <div class="form-container">
+                <h2>Reportar Problema</h2>
+                <form id="reportIssueForm">
+                    <label>Tipos de Problema:</label>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="problemaPelicula" name="issueType" value="problemaPelicula">
+                        <label for="problemaPelicula">Problema de Película</label>
+
+                        <input type="checkbox" id="problemaSonido" name="issueType" value="problemaSonido">
+                        <label for="problemaSonido">Problema de Sonido</label>
+
+                        <input type="checkbox" id="problemaReproduccion" name="issueType" value="problemaReproduccion">
+                        <label for="problemaReproduccion">Problema de Reproducción</label>
+
+                        <input type="checkbox" id="peliculaNoDisponible" name="issueType" value="peliculaNoDisponible">
+                        <label for="peliculaNoDisponible">La Película no está Disponible</label>
+                    </div>
+
+
+                    <label for="pageUrl">URL de la Página:</label>
+                    <input type="hidden" id="pageUrl" name="pageUrl" value="">
+                    <button type="submit">Enviar Reporte</button>
+                </form>
+                <button id="closeFormButton">Cerrar</button>
+            </div>
+        </div>
+
+        <!-- /*Reportar problema*/ -->
+
+
+
     </main>
 
     <div class="margefoter">

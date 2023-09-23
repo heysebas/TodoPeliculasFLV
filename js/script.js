@@ -262,3 +262,62 @@ gtag('js', new Date());
 gtag('config', 'G-LHZK7S44W3');
 
 //-----------------------------------------------
+
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const reportButton = document.getElementById("reportButton");
+    const reportForm = document.getElementById("reportForm");
+    const closeFormButton = document.getElementById("closeFormButton");
+    const pageUrlInput = document.getElementById("pageUrl");
+
+    // Mostrar el formulario al hacer clic en el botón de reporte
+    reportButton.addEventListener("click", function () {
+        pageUrlInput.value = window.location.href;
+        reportForm.style.display = "block";
+    });
+
+    // Ocultar el formulario al hacer clic en el botón de cerrar
+    closeFormButton.addEventListener("click", function () {
+        reportForm.style.display = "none";
+    });
+
+    // Enviar el formulario de reporte
+    const reportIssueForm = document.getElementById("reportIssueForm");
+    reportIssueForm.addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        // Recopila los datos del formulario
+        const issueDescription = document.getElementById("issueDescription").value;
+        const issueTypeCheckboxes = document.querySelectorAll('input[name="issueType"]:checked');
+        const issueTypes = Array.from(issueTypeCheckboxes).map(checkbox => checkbox.value);
+
+        // Crea un objeto con los datos del formulario
+        const formData = new FormData();
+        formData.append("issueDescription", issueDescription);
+        formData.append("issueType", JSON.stringify(issueTypes)); // Convierte el arreglo a una cadena JSON
+
+        // Realiza una solicitud POST para enviar el formulario al servidor
+        fetch("/ruta-del-servidor-para-procesar-el-formulario", {
+            method: "POST",
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+            // Aquí puedes manejar la respuesta del servidor, por ejemplo, mostrar un mensaje de confirmación
+            console.log("Respuesta del servidor:", data);
+
+            // Limpia el formulario y oculta el formulario
+            reportIssueForm.reset();
+            reportForm.style.display = "none";
+
+            // Muestra un mensaje de confirmación o realiza el envío por correo
+            // Agrega aquí la lógica para enviar el reporte por correo
+        })
+        .catch(error => {
+            // Maneja cualquier error que ocurra durante la solicitud
+            console.error("Error al enviar el formulario:", error);
+        });
+    });
+});
