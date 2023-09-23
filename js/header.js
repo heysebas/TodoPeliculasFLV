@@ -25,6 +25,41 @@ header.innerHTML = `
             </tr>
             </thead>
                  <tbody>
+             <tr>
+                 <td>
+                     <a href="/peliculas/2/Masacre_americana.html">
+                         <div>Masacre americana</div>
+                     </a>
+                 </td>
+             </tr>
+             <tr>
+                    <td>
+                        <a href="/peliculas/2/Nikki_y_Nora_hermanas_detectives.html">
+                            <div>Nikki y Nora: hermanas detectives</div>
+                        </a>
+                    </td>
+                </tr>
+             <tr>
+                 <td>
+                     <a href="/peliculas/2/Seguridad_máxima.html">
+                         <div>Seguridad máxima</div>
+                     </a>
+                 </td>
+             </tr>
+             <tr>
+                 <td>
+                     <a href="/peliculas/2/Escape_bajo_fuego.html">
+                         <div>Escape bajo fuego</div>
+                     </a>
+                 </td>
+             </tr>
+             <tr>
+                 <td>
+                     <a href="/peliculas/2/La_vida_es_un_pastel.html">
+                         <div>La vida es un pastel</div>
+                     </a>
+                 </td>
+             </tr>
                  <tr>
                     <td>
                         <a href="/peliculas/2/Sentinelle.html">
