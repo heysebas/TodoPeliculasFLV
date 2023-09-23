@@ -1,0 +1,205 @@
+        <!-- /*Reportar problema*/ -->
+        <button id="reportButton">Reportar Problema</button>
+
+        <div id="reportForm" class="overlay">
+            <div class="form-container">
+                <h2>Reportar Problema</h2>
+                <form id="reportIssueForm">
+                    <label>Tipos de Problema:</label>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="problemaPelicula" name="issueType" value="problemaPelicula">
+                        <label for="problemaPelicula">Problema de Película</label>
+
+                        <input type="checkbox" id="problemaSonido" name="issueType" value="problemaSonido">
+                        <label for="problemaSonido">Problema de Sonido</label>
+
+                        <input type="checkbox" id="problemaReproduccion" name="issueType" value="problemaReproduccion">
+                        <label for="problemaReproduccion">Problema de Reproducción</label>
+
+                        <input type="checkbox" id="peliculaNoDisponible" name="issueType" value="peliculaNoDisponible">
+                        <label for="peliculaNoDisponible">La Película no está Disponible</label>
+                    </div>
+
+
+                    <label for="pageUrl">URL de la Página:</label>
+                    <input type="hidden" id="pageUrl" name="pageUrl" value="">
+                    <button type="submit">Enviar Reporte</button>
+                </form>
+                <button id="closeFormButton">Cerrar</button>
+            </div>
+        </div>
+
+        <!-- /*Reportar problema*/ -->
+
+
+css
+/*Reportar problema*/
+/* Estilos para el botón */
+#reportButton {
+    margin-top: 2%;
+    background-color: rgba(0, 136, 169, 1);
+    border-radius: 35px;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Estilos para el formulario de reporte */
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+}
+
+.form-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: gray;
+    /* Cambiamos el fondo a gris */
+    color: white;
+    /* Cambiamos el color del texto a negro */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilos para los botones dentro del formulario */
+.form-container button {
+    background-color: rgba(0, 136, 169, 1);
+    /* Fondo de color */
+    color: white;
+    /* Color de texto en botones */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    /* Espacio entre botones */
+}
+
+
+/* Estilos adicionales según tus preferencias */
+
+
+/* Estilos para las casillas de verificación y etiquetas */
+/* Estilos para las casillas de verificación y etiquetas */
+.checkbox-group input[type="checkbox"] {
+    position: absolute;
+    opacity: 0; /* Ocultar la casilla de verificación por defecto */
+}
+
+.checkbox-group label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+}
+
+/* Estilos personalizados para las casillas de verificación */
+.checkbox-group label::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    background-color: white;
+    border-radius: 3px;
+}
+
+/* Estilos para cambiar el color del texto al pasar el mouse */
+.checkbox-group label:hover {
+    color: rgb(125, 245, 243);
+}
+
+/* Estilos cuando una casilla de verificación está marcada */
+.checkbox-group input[type="checkbox"]:checked + label::before {
+    background-color: var(--secondary-color);
+    border: 2px solid var(--primary-color);
+    content: '\2713';
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    line-height: 20px;
+}
+
+/* Estilos para el cuadro de verificación */
+.checkbox-group input[type="checkbox"]:not(:checked) + label::before {
+    border-color: #ccc;
+    background-color: white;
+}
+
+
+/*Reportar problema*/
+
+
+
+script
+
+document.addEventListener("DOMContentLoaded", function () {
+    const reportButton = document.getElementById("reportButton");
+    const reportForm = document.getElementById("reportForm");
+    const closeFormButton = document.getElementById("closeFormButton");
+    const pageUrlInput = document.getElementById("pageUrl");
+
+    // Mostrar el formulario al hacer clic en el botón de reporte
+    reportButton.addEventListener("click", function () {
+        pageUrlInput.value = window.location.href;
+        reportForm.style.display = "block";
+    });
+
+    // Ocultar el formulario al hacer clic en el botón de cerrar
+    closeFormButton.addEventListener("click", function () {
+        reportForm.style.display = "none";
+    });
+
+    // Enviar el formulario de reporte
+    const reportIssueForm = document.getElementById("reportIssueForm");
+    reportIssueForm.addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        // Recopila los datos del formulario
+        const issueDescription = document.getElementById("issueDescription").value;
+        const issueTypeCheckboxes = document.querySelectorAll('input[name="issueType"]:checked');
+        const issueTypes = Array.from(issueTypeCheckboxes).map(checkbox => checkbox.value);
+
+        // Crea un objeto con los datos del formulario
+        const formData = new FormData();
+        formData.append("issueDescription", issueDescription);
+        formData.append("issueType", JSON.stringify(issueTypes)); // Convierte el arreglo a una cadena JSON
+
+        // Realiza una solicitud POST para enviar el formulario al servidor
+        fetch("/ruta-del-servidor-para-procesar-el-formulario", {
+            method: "POST",
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+            // Aquí puedes manejar la respuesta del servidor, por ejemplo, mostrar un mensaje de confirmación
+            console.log("Respuesta del servidor:", data);
+
+            // Limpia el formulario y oculta el formulario
+            reportIssueForm.reset();
+            reportForm.style.display = "none";
+
+            // Muestra un mensaje de confirmación o realiza el envío por correo
+            // Agrega aquí la lógica para enviar el reporte por correo
+        })
+        .catch(error => {
+            // Maneja cualquier error que ocurra durante la solicitud
+            console.error("Error al enviar el formulario:", error);
+        });
+    });
+});

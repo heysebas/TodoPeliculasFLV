@@ -25,6 +25,48 @@ header.innerHTML = `
             </tr>
             </thead>
                  <tbody>
+                 <tr>
+                    <td>
+                        <a href="/peliculas/2/Fatum.html">
+                            <div>Fatum</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Sed_Incontrolable.html">
+                            <div>Sed Incontrolable</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Un_guardabosque.html">
+                            <div>Un guardabosque</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/The_Blackening.html">
+                            <div>The Blackening</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Agente_Stone.html">
+                            <div>Agente Stone</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Yo_Yo_Misma_y_Diana.html">
+                            <div>Yo, Yo Misma y Diana</div>
+                        </a>
+                    </td>
+                </tr>
              <tr>
                  <td>
                      <a href="/peliculas/2/Masacre_americana.html">
