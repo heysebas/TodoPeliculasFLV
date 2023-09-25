@@ -15,7 +15,7 @@ $.fn.dataTable.ext.search.push(function (settings, data, dataIndex) {
     return rowData.includes(searchTerm);
 });
 
-$("#input-search").keyup(function () {
+$("#input-search").on('input', function () {
     buscador.draw();
     if ($(this).val() === "") {
         $(".content-search").fadeOut(300);
