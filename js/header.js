@@ -27,6 +27,27 @@ header.innerHTML = `
                  <tbody>
                  <tr>
                     <td>
+                        <a href="/peliculas/2/Cuando_Frank_conoció_a_Carlitos.html">
+                            <div>Cuando Frank conoció a Carlitos</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Extinción.html">
+                            <div>Extinción</div>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/peliculas/2/Metalocalypse_El_Ejercito_de_la_estrella_del_mal.html">
+                            <div>Metalocalypse: El Ejercito de la estrella del mal</div>
+                        </a>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
                         <a href="/peliculas/2/Fatum.html">
                             <div>Fatum</div>
                         </a>
