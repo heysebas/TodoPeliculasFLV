@@ -265,3 +265,42 @@ gtag('config', 'G-LHZK7S44W3');
 
 
 
+// Obtén todos los botones de cambio de reproductor
+const botonesCambioReproductor = document.querySelectorAll('.cambio-reproductor');
+
+// Agrega la clase 'selected' al botón correspondiente a id="video1"
+document.querySelector('#video1').classList.add('selected');
+
+// Agrega un event listener para cada botón
+botonesCambioReproductor.forEach((boton) => {
+    boton.addEventListener('click', () => {
+        // Quita la clase 'selected' de todos los botones
+        botonesCambioReproductor.forEach((b) => b.classList.remove('selected'));
+        // Agrega la clase 'selected' al botón seleccionado
+        boton.classList.add('selected');
+    });
+});
+
+
+
+// Función para mostrar un reproductor y ocultar los demás
+function mostrarReproductor(videoId) {
+    var reproductores = document.querySelectorAll('.reproductor');
+    for (var i = 0; i < reproductores.length; i++) {
+        reproductores[i].style.display = 'none';
+    }
+    var reproductor = document.getElementById(videoId);
+    reproductor.style.display = 'block';
+}
+
+// Agregar eventos de clic a los botones de cambio de reproductor
+var cambioReproductor = document.querySelectorAll('.cambio-reproductor');
+for (var i = 0; i < cambioReproductor.length; i++) {
+    cambioReproductor[i].addEventListener('click', function () {
+        var videoId = this.getAttribute('data-video');
+        mostrarReproductor(videoId);
+    });
+}
+
+// Mostrar el primer reproductor por defecto al cargar la página
+mostrarReproductor('video1');

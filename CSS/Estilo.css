@@ -627,8 +627,25 @@ tbody tr td :hover {
     justify-content: center;
 }
 
+.reproductor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Alineación vertical de elementos dentro del reproductor */
+    margin-top: 15px;
+    text-align: center; /* Alineación horizontal de elementos dentro del reproductor */
+}
+
+/* Estilos para los iframes de video */
 .play-3 {
-    max-width: 50%;
+    max-width: 50%; /* Limita la anchura máxima al 50% */
+}
+
+/* Estilos para los botones de cambio de reproductor */
+.cambio-reproductor {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
 }
 
 /*-------------------------------------------------*/
@@ -1304,4 +1321,54 @@ img[alt="www.000webhost.com"] {
     }
 
 
+}
+
+.container {
+    max-width: 1200px; /* Ancho máximo del contenedor principal */
+    margin: 0 auto; /* Centrar horizontalmente el contenedor */
+    text-align: center; /* Centrar el contenido del contenedor horizontalmente */
+}
+
+
+
+/* Estilos CSS para los botones de cambio de reproductor */
+.cambio-reproductor {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+/* Estilos para los botones de cambio de reproductor */
+.buton_cambio_reproductor {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cambio-reproductor {
+    margin-top: 2%;
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border-radius: 15px;
+    color: #fff; /* Cambia el color de texto por defecto a blanco */
+}
+
+/* Cambio de color de fondo al pasar el ratón por encima */
+.cambio-reproductor:hover {
+    background-color: #0088a9;
+}
+
+/* Cambio de color de fondo al hacer clic */
+.cambio-reproductor:active {
+    background-color: #005566;
+}
+
+/* Cambio de color de fondo cuando está seleccionado */
+.cambio-reproductor.selected {
+    background-color: #005566;
 }
