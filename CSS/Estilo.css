@@ -631,14 +631,17 @@ tbody tr td :hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; /* Alineación vertical de elementos dentro del reproductor */
+    flex-direction: column;
+    /* Alineación vertical de elementos dentro del reproductor */
     margin-top: 15px;
-    text-align: center; /* Alineación horizontal de elementos dentro del reproductor */
+    text-align: center;
+    /* Alineación horizontal de elementos dentro del reproductor */
 }
 
 /* Estilos para los iframes de video */
 .play-3 {
-    max-width: 50%; /* Limita la anchura máxima al 50% */
+    max-width: 50%;
+    /* Limita la anchura máxima al 50% */
 }
 
 /* Estilos para los botones de cambio de reproductor */
@@ -753,7 +756,7 @@ tbody tr td :hover {
 
 .pie-pagina {
     width: 100%;
-    height: 300px;
+    height: auto;
     background: var(--tertiary-color);
     margin-top: 2%;
 }
@@ -816,6 +819,8 @@ tbody tr td :hover {
 @media screen and (max-width: 800px) {
     .pie-pagina {
         width: 100%;
+        padding: 20px;
+
         /* Esto hará que ocupe el 100% del ancho de la pantalla en dispositivos móviles */
     }
 
@@ -881,16 +886,35 @@ tbody tr td :hover {
 
     .pie-pagina .grupo-1 {
         width: 100%;
+        height: auto;
+        padding: 20px;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 30px;
         padding: 35px 0px;
+    }
+
+    .cambio-reproductor {
+        width: 30%;
+        display: flex;
+        align-items: center;
+        font-size: 85%;
+        justify-content: center;
+        text-align: center;
+        /* Centrar el texto horizontalmente */
     }
 }
 
 @media screen and (max-width: 363px) {
     .pie-pagina {
         width: 100%;
+        padding: 20px;
         /* Esto hará que ocupe el 100% del ancho de la pantalla en dispositivos móviles */
+    }
+
+    .grupo-1,
+    .grupo-2 {
+        margin-right: 360px;
+        /* Aplica un margen derecho a los elementos que contienen texto */
     }
 
     body {
@@ -898,6 +922,21 @@ tbody tr td :hover {
         font-family: "Poppins", sans-serif;
         overflow-x: hidden;
         /* Esto evita la barra de desplazamiento horizontal */
+    }
+
+
+    .conteiner-all-2 {
+        font-size: auto;
+    }
+
+    .cambio-reproductor {
+        width: 30%;
+        display: flex;
+        align-items: center;
+        font-size: 85%;
+        justify-content: center;
+        text-align: center;
+        /* Centrar el texto horizontalmente */
     }
 }
 
@@ -914,6 +953,7 @@ tbody tr td :hover {
         height: 1px;
         display: none;
     }
+
 }
 
 @media (max-width: 1280px) {
@@ -994,6 +1034,7 @@ tbody tr td :hover {
 @media screen and (max-width: 768px) {
     .pie-pagina {
         width: 100%;
+        height: auto;
         /* Esto hará que ocupe el 100% del ancho de la pantalla en dispositivos móviles */
     }
 }
@@ -1324,9 +1365,12 @@ img[alt="www.000webhost.com"] {
 }
 
 .container {
-    max-width: 1200px; /* Ancho máximo del contenedor principal */
-    margin: 0 auto; /* Centrar horizontalmente el contenedor */
-    text-align: center; /* Centrar el contenido del contenedor horizontalmente */
+    max-width: 1200px;
+    /* Ancho máximo del contenedor principal */
+    margin: 0 auto;
+    /* Centrar horizontalmente el contenedor */
+    text-align: center;
+    /* Centrar el contenido del contenedor horizontalmente */
 }
 
 
@@ -1355,7 +1399,8 @@ img[alt="www.000webhost.com"] {
     cursor: pointer;
     transition: all 0.3s ease 0s;
     border-radius: 15px;
-    color: #fff; /* Cambia el color de texto por defecto a blanco */
+    color: #fff;
+    /* Cambia el color de texto por defecto a blanco */
 }
 
 /* Cambio de color de fondo al pasar el ratón por encima */
