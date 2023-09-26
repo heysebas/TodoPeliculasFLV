@@ -25,6 +25,21 @@ header.innerHTML = `
             </tr>
             </thead>
                  <tbody>
+                 
+                <tr>
+                <td>
+                    <a href="/Series/1/Loki/Loki.html">
+                        <div>Loki</div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/Series/1/La_plataforma/La_plataforma.html">
+                        <div>La plataforma</div>
+                    </a>
+                </td>
+            </tr>
                  <tr>
                     <td>
                         <a href="/peliculas/2/Cuando_Frank_conoció_a_Carlitos.html">
