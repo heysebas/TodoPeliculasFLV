@@ -26,6 +26,13 @@ header.innerHTML = `
             </thead>
                  <tbody>
                  <tr>
+                 <td>
+                     <a href="/Series/1/Euphoria/Euphoria.html">
+                         <div>Euphoria</div>
+                     </a>
+                 </td>
+             </tr>
+                 <tr>
                     <td>
                         <a href="/Series/1/Tulsa_King/Tulsa_King.html">
                             <div>Tulsa King</div>
