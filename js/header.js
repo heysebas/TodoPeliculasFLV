@@ -26,6 +26,13 @@ header.innerHTML = `
             </thead>
                  <tbody>
                  <tr>
+                    <td>
+                        <a href="/peliculas/2/Gran_Turismo_De_jugador_a_corredor.html">
+                            <div>Gran Turismo: De jugador a corredor</div>
+                        </a>
+                    </td>
+                </tr>
+                 <tr>
                  <td>
                      <a href="/Series/1/Euphoria/Euphoria.html">
                          <div>Euphoria</div>
