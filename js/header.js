@@ -27,6 +27,20 @@ header.innerHTML = `
                 <tbody>
                     <tr>
                         <td>
+                            <a href="/peliculas/2/Project_Legion.html">
+                                <div>Project Legion</div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="/peliculas/2/Tortugas_Ninja_Caos_mutante.html">
+                                <div>Tortugas Ninja: Caos mutante</div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
                             <a href="/peliculas/2/Miniespías_Armagedón.html">
                                 <div>Miniespías: Armagedón</div>
                             </a>
