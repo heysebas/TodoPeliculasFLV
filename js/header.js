@@ -27,6 +27,34 @@ header.innerHTML = `
                 <tbody>
                     <tr>
                         <td>
+                            <a href="/peliculas/2/La_monja_II.html">
+                                <div>La monja II</div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="/peliculas/2/La_monja.html">
+                                <div>La monja</div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="/peliculas/2/La_posibilidad_estadística_del_amor_a_primera_vista.html">
+                                <div>La posibilidad estadística del amor a primera vista</div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="/peliculas/2/Mercy.html">
+                                <div>Mercy</div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
                             <a href="/peliculas/2/Soltera_codiciada_2.html">
                                 <div>Soltera codiciada 2</div>
                             </a>
