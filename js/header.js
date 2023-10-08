@@ -27,6 +27,27 @@ header.innerHTML = `
                 <tbody>
                     <tr>
                         <td>
+                            <a href="/peliculas/2/El_viaje_de_Julieta.html">
+                                <div>El viaje de Julieta</div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="/peliculas/2/Ehrengard_El_arte_de_la_seducción.html">
+                                <div>Ehrengard: El arte de la seducción</div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="/peliculas/2/Más_allá_del_tiempo.html">
+                                <div>Más allá del tiempo</div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
                             <a href="/peliculas/2/La_monja_II.html">
                                 <div>La monja II</div>
                             </a>
@@ -1940,8 +1961,8 @@ let menu = document.querySelector('.bx-menu');
 let navbar = document.querySelector('.nav_links');
 
 menu.onclick = () => {
-menu.classList.toggle('.bx-menu');
-navbar.classList.toggle('open');
+    menu.classList.toggle('.bx-menu');
+    navbar.classList.toggle('open');
 }
 
 // $(document).ready(function(){
