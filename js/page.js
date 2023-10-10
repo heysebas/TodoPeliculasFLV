@@ -1,6 +1,6 @@
 var items = $('.card-content .movie');
 var numItems = items.length;
-var perPage = 32;
+var perPage = 36;
 
 items.slice(perPage).hide();
 

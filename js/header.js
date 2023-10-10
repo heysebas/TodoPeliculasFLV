@@ -27,6 +27,41 @@ header.innerHTML = `
                 <tbody>
                     <tr>
                         <td>
+                            <a href="/peliculas/3/El_padrino_Parte_III.html">
+                                <div>El Padrino: Parte III</div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="/peliculas/3/El_padrino_Parte_II.html">
+                                <div>El Padrino: Parte II</div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="/peliculas/3/El_padrino.html">
+                                <div>El Padrino</div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="/peliculas/3/Joy_El_nombre_del_éxito.html">
+                                <div>Joy: El nombre del éxito</div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="/peliculas/3/Nowhere.html">
+                                <div>Nowhere</div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
                             <a href="/peliculas/2/El_viaje_de_Julieta.html">
                                 <div>El viaje de Julieta</div>
                             </a>
