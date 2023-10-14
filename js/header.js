@@ -27,6 +27,27 @@ header.innerHTML = `
                 <tbody>
                     <tr>
                         <td>
+                            <a href="/peliculas/3/Winnie_the_Pooh_Miel_y_sangre.html">
+                                <div>Winnie the Pooh: Miel y sangre</div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="/peliculas/3/Mi_gran_boda_griega_3.html">
+                                <div>Mi gran boda griega 3</div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="/peliculas/3/Scooby_Doo_Y_Krypto_al_rescate.html">
+                                <div>¡Scooby Doo! ¡Y Krypto al rescate!</div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
                             <a href="/peliculas/3/El_tutor.html">
                                 <div>El tutor</div>
                             </a>
