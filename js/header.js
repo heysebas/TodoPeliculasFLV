@@ -27,6 +27,27 @@ header.innerHTML = `
                 <tbody>
                     <tr>
                         <td>
+                            <a href="/peliculas/3/Flora_e_hijo.html">
+                                <div>Flora e hijo</div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="/peliculas/3/La_emboscada.html">
+                                <div>La emboscada</div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="/peliculas/3/¿Quieres_ser_mi_hijo.html">
+                                <div>¿Quieres ser mi hijo?</div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
                             <a href="/peliculas/3/Winnie_the_Pooh_Miel_y_sangre.html">
                                 <div>Winnie the Pooh: Miel y sangre</div>
                             </a>
@@ -2066,8 +2087,8 @@ let menu = document.querySelector('.bx-menu');
 let navbar = document.querySelector('.nav_links');
 
 menu.onclick = () => {
-    menu.classList.toggle('.bx-menu');
-    navbar.classList.toggle('open');
+menu.classList.toggle('.bx-menu');
+navbar.classList.toggle('open');
 }
 
 // $(document).ready(function(){
