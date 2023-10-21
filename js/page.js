@@ -10,6 +10,12 @@ $('#pagination-container').pagination({
     prevText: "<",
     nextText: ">",
     onPageClick: function (pageNumber) {
+        // Agregar animación de desplazamiento hacia arriba
+        $('html, body').animate({
+            scrollTop: 0
+        }, 1000); // 500 milisegundos (1 segundo) para la animación de desplazamiento
+
+        // Resto de tu código de paginación
         var showFrom = perPage * (pageNumber - 1);
         var showTo = showFrom + perPage;
         items.hide().slice(showFrom, showTo).show();
@@ -25,6 +31,7 @@ $('#pagination-container').pagination({
     }
 });
 
+
 $(document).ready(function () {
     // Verificar si hay una ancla en la URL y desplazar la página
     if (window.location.hash) {
@@ -32,8 +39,13 @@ $(document).ready(function () {
         if ($('#' + target).length) {
             $('html, body').animate({
                 scrollTop: $('#' + target).offset().top
-            }, 1000);
-        } // 1000 milisegundos (1 segundo) para la animación de desplazamiento
+            }, 1000); // 1000 milisegundos (1 segundo) para la animación de desplazamiento
+        }
+    } else {
+        // Si no hay una ancla en la URL, simplemente desplázate hacia arriba
+        $('html, body').animate({
+            scrollTop: 0
+        }, 1000); // 1000 milisegundos (1 segundo) para la animación de desplazamiento
     }
 
     // Almacenar la ubicación actual en el almacenamiento local del navegador
